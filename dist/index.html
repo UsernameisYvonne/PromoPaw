@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en-AU">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#173E2C" />
+    <meta name="description" content="PricePaw grocery product discovery prototype." />
+    <title>Shop | PricePaw</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,650;9..144,750&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css?v=stage5-qa-4" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav-shell" aria-label="Primary navigation">
+        <a class="wordmark" href="#" aria-label="PricePaw home">
+          <span class="wordmark-mark" aria-hidden="true">P</span>
+          <span>PricePaw</span>
+        </a>
+
+        <div class="nav-links" aria-label="Shopping sections">
+          <a class="active" href="#products" aria-current="page">Shop</a>
+          <button type="button" data-view="watchlist">Watchlist</button>
+          <button type="button" data-view="basket">Basket</button>
+          <button type="button" data-view="trip">Trip Planner</button>
+        </div>
+
+        <label class="search-field" for="product-search">
+          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m21 21-4.35-4.35m2.35-5.15A7.5 7.5 0 1 1 4 11.5a7.5 7.5 0 0 1 15 0Z"/></svg>
+          <input id="product-search" type="search" placeholder="Search groceries" autocomplete="off" />
+          <kbd>⌘ K</kbd>
+        </label>
+
+        <div class="nav-counters" aria-label="Account summary">
+          <span class="counter coins" title="Coins"><span aria-hidden="true">●</span><strong>120</strong><span class="counter-label">coins</span></span>
+          <button type="button" class="icon-counter" data-view="watchlist" aria-label="Watchlist, 0 items">
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 20.5S4 16 4 9.7A4.2 4.2 0 0 1 12 7a4.2 4.2 0 0 1 8 2.7c0 6.3-8 10.8-8 10.8Z"/></svg><b>0</b>
+          </button>
+          <button type="button" class="icon-counter" data-view="basket" aria-label="Basket, 0 items">
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M3 4h2l2.2 10.2a2 2 0 0 0 2 1.6h7.9a2 2 0 0 0 1.9-1.4L21 8H6.1M10 20h.01M17 20h.01"/></svg><b>0</b>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div id="shop-view">
+      <section class="category-strip" aria-label="Product categories">
+        <div class="category-shell" role="group" aria-label="Filter by category">
+          <button class="category active" type="button" data-category="All" aria-pressed="true">All</button>
+          <button class="category" type="button" data-category="Pantry" aria-pressed="false">Pantry</button>
+          <button class="category" type="button" data-category="Dairy" aria-pressed="false">Dairy</button>
+          <button class="category" type="button" data-category="Breakfast" aria-pressed="false">Breakfast</button>
+          <button class="category" type="button" data-category="Fresh" aria-pressed="false">Fresh</button>
+          <button class="category" type="button" data-category="Household" aria-pressed="false">Household</button>
+          <button class="category" type="button" data-category="Personal Care" aria-pressed="false">Personal Care</button>
+        </div>
+      </section>
+
+      <div class="page-shell">
+        <section class="catalogue" id="products" aria-labelledby="catalogue-title">
+          <div class="catalogue-heading">
+            <div>
+              <p class="eyebrow">Compare your everyday favourites</p>
+              <h1 id="catalogue-title">Shop groceries</h1>
+            </div>
+            <p class="result-count" id="result-count" aria-live="polite">8 products</p>
+          </div>
+
+          <div class="notice" role="note">
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 8v5m0 3h.01M10.3 3.9 2.2 18a2 2 0 0 0 1.7 3h16.2a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0Z"/></svg>
+            <span>Demonstration catalogue — all prices are illustrative, not current retailer prices.</span>
+          </div>
+
+          <div class="product-grid" id="product-grid"></div>
+
+          <div class="empty-state" id="empty-state" hidden>
+            <span class="empty-icon" aria-hidden="true">⌕</span>
+            <h2>No groceries found</h2>
+            <p>Try another product name or browse every category.</p>
+            <button type="button" id="clear-search">Clear search</button>
+          </div>
+        </section>
+
+        <aside class="assistant-panel" id="desktop-maple" aria-label="Maple scripted shopping assistant"></aside>
+      </div>
+      </div>
+
+      <section class="detail-view" id="detail-view" hidden aria-live="polite">
+        <div class="detail-shell">
+          <nav class="breadcrumbs" id="breadcrumbs" aria-label="Breadcrumb"></nav>
+          <div class="detail-layout">
+            <section class="product-summary" id="product-summary" aria-labelledby="detail-product-name"></section>
+            <section class="analysis-column" aria-label="Price analysis">
+              <div class="analysis-card chart-card">
+                <div class="analysis-card-head">
+                  <div>
+                    <p class="eyebrow">Illustrative price movement</p>
+                    <h2>Price history &amp; outlook</h2>
+                  </div>
+                  <div class="range-tabs" role="group" aria-label="Price history timeframe">
+                    <button type="button" data-range="8" aria-pressed="true">8 weeks</button>
+                    <button type="button" data-range="12" aria-pressed="false">12 weeks</button>
+                    <button type="button" data-range="26" aria-pressed="false">6 months</button>
+                  </div>
+                </div>
+                <div class="chart-legend" aria-label="Chart legend">
+                  <span><i class="legend-line coles-line"></i><b>C</b> Coles · observed</span>
+                  <span><i class="legend-line woolworths-line"></i><b>W</b> Woolworths · observed</span>
+                  <span><i class="legend-line forecast-line"></i>Illustrative forecast</span>
+                  <span><i class="legend-low"></i>Historical low</span>
+                </div>
+                <div class="chart-wrap" id="chart-wrap">
+                  <svg id="price-chart" role="img" aria-labelledby="chart-title chart-desc" viewBox="0 0 760 330"></svg>
+                  <div class="chart-tooltip" id="chart-tooltip" role="status" hidden></div>
+                </div>
+                <p class="missing-note" id="missing-note"></p>
+                <div class="prototype-disclosure" role="note">
+                  <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 8v5m0 3h.01M10.3 3.9 2.2 18a2 2 0 0 0 1.7 3h16.2a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0Z"/></svg>
+                  <span>Prototype analysis — price histories, promotion likelihoods and forecasts are illustrative and are not current retailer observations.</span>
+                </div>
+              </div>
+
+              <div class="analysis-card promotion-card" id="promotion-card"></div>
+
+              <section class="outlook-grid" id="outlook-grid" aria-label="Promotion outlook"></section>
+
+              <section class="recommendation-panel" id="recommendation-panel" aria-labelledby="recommendation-title"></section>
+
+              <section class="action-area" id="action-area" aria-label="Product actions"></section>
+
+              <aside class="maple-context" id="maple-context" aria-label="Maple’s product note">
+                <img src="./assets/pricepaw-cat.png" alt="Maple, the PricePaw shopping assistant" />
+                <div><span>Maple’s note</span><p id="maple-product-note"></p></div>
+                <button type="button" id="maple-context-button">Ask Maple</button>
+              </aside>
+            </section>
+          </div>
+        </div>
+      </section>
+
+      <section class="list-view" id="basket-view" hidden aria-labelledby="basket-title">
+        <div class="list-shell">
+          <div class="list-heading"><div><p class="eyebrow">Your selected groceries</p><h1 id="basket-title">Basket</h1></div><button type="button" class="back-shop" data-go-shop>← Back to Shop</button></div>
+          <div id="basket-content"></div>
+        </div>
+      </section>
+
+      <section class="list-view" id="watchlist-view" hidden aria-labelledby="watchlist-title">
+        <div class="list-shell">
+          <div class="list-heading"><div><p class="eyebrow">Products worth watching</p><h1 id="watchlist-title">Watchlist</h1></div><button type="button" class="back-shop" data-go-shop>← Back to Shop</button></div>
+          <div id="watchlist-content"></div>
+        </div>
+      </section>
+
+      <section class="trip-view" id="trip-view" hidden aria-labelledby="trip-title">
+        <div class="trip-shell" id="trip-content"></div>
+      </section>
+    </main>
+
+    <button class="mobile-cat-button" id="mobile-cat-button" type="button" aria-label="Open Cat Shopping Assistant" aria-expanded="false">
+      <img src="./assets/pricepaw-cat.png" alt="" />
+      <span>Ask Maple</span>
+    </button>
+
+    <div class="mobile-assistant-backdrop" id="mobile-backdrop" hidden></div>
+    <section class="mobile-assistant" id="mobile-assistant" role="dialog" aria-modal="true" aria-label="Maple scripted shopping assistant" hidden></section>
+
+    <dialog class="state-dialog" id="watch-dialog" aria-labelledby="watch-dialog-title">
+      <form method="dialog" id="watch-dialog-form">
+        <button class="dialog-close" type="button" data-close-dialog aria-label="Close">×</button>
+        <p class="eyebrow">Watch this product</p>
+        <h2 id="watch-dialog-title">Set a target price</h2>
+        <p id="watch-dialog-copy">Choose when you need it and add an optional price target.</p>
+        <label>Required by<input id="watch-required-date" type="date" required /></label>
+        <label>Target price <span>(optional)</span><div class="money-input"><span>$</span><input id="watch-target-price" type="number" min="0" step="0.01" placeholder="e.g. 2.00" /></div></label>
+        <p class="field-error" id="watch-dialog-error" role="alert"></p>
+        <div class="dialog-actions"><button type="button" data-close-dialog class="secondary">Cancel</button><button type="submit" value="default">Add to Watchlist</button></div>
+      </form>
+    </dialog>
+
+    <footer>Independent product-discovery prototype. Not affiliated with Coles or Woolworths. Prices shown in this demonstration are illustrative.</footer>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <script src="./app.js?v=maple-personality-2"></script>
+  </body>
+</html>
