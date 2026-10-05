@@ -1,0 +1,32 @@
+# macOS and editor files
+.DS_Store
+.idea/
+.vscode/
+
+# Dependencies and caches
+/node_modules
+node_modules/
+**/node_modules/
+__pycache__/
+*.py[cod]
+
+# Secrets and server keys
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Generated outputs and working files
+tmp/
+output/
+outputs/
+artifacts/
+*_build/
+gro-transparent/
+/scripts/
+/*.png
+*.inspect.ndjson
+*.log
+*.db
+*.xlsx
