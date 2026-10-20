@@ -1,13 +1,25 @@
 # PromoPaw
 
-PromoPaw is a grocery promotion discovery prototype. The current release is a
-static frontend with illustrative catalogue, price-history, forecasting and
-trip-planning data. It does not yet use live retailer prices or production
-forecast outputs.
+PromoPaw is a grocery promotion discovery prototype. The static frontend now
+keeps two explicitly separated iterations in one site:
+
+- **Reference Prototype (Iteration 1)** preserves the illustrative catalogue,
+  price history, forecasting and trip-planning experience.
+- **Data-backed Beta (Iteration 2)** presents the canonical 33-product scope,
+  verified product imagery and a dated store-specific collection. Missing data
+  stays visible, and this iteration does not claim live retailer prices or
+  validated forecast outputs.
+
+Use the version switch in the site header, or open `?mode=data` directly.
 
 ## Repository scope
 
 - `dist/` — the deployable static website.
+- `dist/data/observed-catalogue.json` — curated frontend export for Iteration 2.
+- `tools/export_observed_frontend_data.mjs` — reproducible export from the
+  canonical product master and approved collected observations.
+- `tools/validate_observed_frontend.mjs` — integrity checks for the exported
+  catalogue and product imagery.
 - `docs/EC2_DEPLOYMENT.md` — the deployment runbook and release record.
 - `.openai/hosting.json` — an earlier Sites configuration retained for history;
   the current deployment target is Amazon EC2.
@@ -24,6 +36,16 @@ python3 -m http.server 8080 --directory dist
 ```
 
 Then open `http://localhost:8080`.
+
+Regenerate and validate the Data-backed Beta with:
+
+```bash
+node tools/export_observed_frontend_data.mjs
+node tools/validate_observed_frontend.mjs
+node --check dist/mode-loader.js
+node --check dist/observed-app.js
+node --check dist/app.js
+```
 
 ## Release approach
 

@@ -1,0 +1,2789 @@
+{
+  "schemaVersion": 1,
+  "mode": "data",
+  "label": "Data-backed Beta",
+  "sourceSnapshot": {
+    "collectionStartedOn": "2026-09-27",
+    "collectionCompletedOn": "2026-09-28",
+    "timezone": "Australia/Melbourne",
+    "canonicalProducts": 33,
+    "validStoreSpecificObservations": 82,
+    "comparisonArea": "Point Cook 3030",
+    "note": "This is a dated, collected snapshot. It is not a live retailer feed."
+  },
+  "products": [
+    {
+      "slug": "prd_connoisseur_pistachio_gelato_1l",
+      "name": "Connoisseur Pistachio Gelato",
+      "size": "1L",
+      "brand": "Connoisseur",
+      "category": "Frozen",
+      "extraCategories": [],
+      "stability": "Frozen",
+      "coles": 9.75,
+      "woolworths": 13,
+      "typicalColes": null,
+      "typicalWoolworths": null,
+      "cheaper": "Coles",
+      "special": true,
+      "imageUrl": "./assets/products/01-connoisseur-pistachio-gelato-1l.png",
+      "imageStatus": "Verified product image",
+      "imageSource": {
+        "status": "confirmed",
+        "officialPage": "https://www.woolworths.com.au/shop/productdetails/6042416/connoisseur-pistachio-gelato-tub",
+        "note": null
+      },
+      "unit": "100mL",
+      "rec": "Insufficient Evidence",
+      "outlook7": [
+        "Unavailable",
+        null,
+        "No validated forecast is available for this collected-data snapshot.",
+        "No forecast"
+      ],
+      "outlook14": [
+        "Unavailable",
+        null,
+        "No validated forecast is available for this collected-data snapshot.",
+        "No forecast"
+      ],
+      "comparisonArea": "Point Cook 3030",
+      "comparisonStores": {
+        "coles": "Coles Point Cook Stockland",
+        "woolworths": "Woolworths Point Cook Town Centre"
+      },
+      "observations": [
+        {
+          "retailer": "coles",
+          "storeId": "store_coles_point_cook_stockland",
+          "storeName": "Coles Point Cook Stockland",
+          "areaId": "area_point_cook_3030",
+          "observedAt": "2026-09-27T23:38:00+10:00",
+          "price": 9.75,
+          "wasPrice": 13,
+          "promotion": true,
+          "promotionText": "$9.75 | Save $3.25 | $0.98/ 100mL | Was $13.00",
+          "unitPrice": 0.98,
+          "unit": "100mL",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.coles.com.au/product/connoisseur-pistachio-gelato-tub-1l-1338603"
+        },
+        {
+          "retailer": "woolworths",
+          "storeId": "store_woolworths_point_cook_stockland",
+          "storeName": "Woolworths Point Cook Town Centre",
+          "areaId": "area_point_cook_3030",
+          "observedAt": "2026-09-28T00:06:10.478+10:00",
+          "price": 13,
+          "wasPrice": null,
+          "promotion": false,
+          "promotionText": null,
+          "unitPrice": 1.3,
+          "unit": "100 millilitres",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.woolworths.com.au/shop/productdetails/6042416/connoisseur-pistachio-gelato-tub"
+        },
+        {
+          "retailer": "woolworths",
+          "storeId": "store_woolworths_clayton_mcity",
+          "storeName": "Woolworths Clayton M-City",
+          "areaId": "area_clayton_3168",
+          "observedAt": "2026-09-28T00:08:30.399+10:00",
+          "price": 13,
+          "wasPrice": null,
+          "promotion": false,
+          "promotionText": null,
+          "unitPrice": 1.3,
+          "unit": "100 millilitres",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.woolworths.com.au/shop/productdetails/6042416/connoisseur-pistachio-gelato-tub"
+        }
+      ],
+      "catalogueVerificationStatus": "both_catalogue_pages_verified"
+    },
+    {
+      "slug": "prd_sara_lee_french_vanilla_ice_cream_1l",
+      "name": "Sara Lee French Vanilla Ice Cream",
+      "size": "1L",
+      "brand": "Sara Lee",
+      "category": "Frozen",
+      "extraCategories": [],
+      "stability": "Frozen",
+      "coles": 12,
+      "woolworths": null,
+      "typicalColes": null,
+      "typicalWoolworths": null,
+      "cheaper": "Coles",
+      "special": false,
+      "imageUrl": "./assets/products/02-sara-lee-french-vanilla-ice-cream-1l.png",
+      "imageStatus": "Verified product image",
+      "imageSource": {
+        "status": "confirmed",
+        "officialPage": "https://www.woolworths.com.au/shop/productdetails/12311",
+        "note": null
+      },
+      "unit": "100mL",
+      "rec": "Insufficient Evidence",
+      "outlook7": [
+        "Unavailable",
+        null,
+        "No validated forecast is available for this collected-data snapshot.",
+        "No forecast"
+      ],
+      "outlook14": [
+        "Unavailable",
+        null,
+        "No validated forecast is available for this collected-data snapshot.",
+        "No forecast"
+      ],
+      "comparisonArea": "Point Cook 3030",
+      "comparisonStores": {
+        "coles": "Coles Point Cook Stockland",
+        "woolworths": "Woolworths Point Cook Town Centre"
+      },
+      "observations": [
+        {
+          "retailer": "coles",
+          "storeId": "store_coles_point_cook_stockland",
+          "storeName": "Coles Point Cook Stockland",
+          "areaId": "area_point_cook_3030",
+          "observedAt": "2026-09-27T23:38:00+10:00",
+          "price": 12,
+          "wasPrice": null,
+          "promotion": false,
+          "promotionText": null,
+          "unitPrice": 1.2,
+          "unit": "100mL",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.coles.com.au/product/sara-lee-classic-french-vanilla-ice-cream-1l-5050130"
+        }
+      ],
+      "catalogueVerificationStatus": "pending_both_retailer_url_check"
+    },
+    {
+      "slug": "prd_cocobella_coconut_water_straight_up_1l",
+      "name": "Cocobella Coconut Water Straight Up",
+      "size": "1L",
+      "brand": "Cocobella",
+      "category": "Beverages",
+      "extraCategories": [],
+      "stability": "Shelf-stable",
+      "coles": 5.5,
+      "woolworths": 2.75,
+      "typicalColes": null,
+      "typicalWoolworths": null,
+      "cheaper": "Woolworths",
+      "special": true,
+      "imageUrl": "./assets/products/03-cocobella-coconut-water-straight-up-1l.png",
+      "imageStatus": "Verified product image",
+      "imageSource": {
+        "status": "confirmed",
+        "officialPage": "https://www.woolworths.com.au/shop/productdetails/724514",
+        "note": null
+      },
+      "unit": "litre",
+      "rec": "Insufficient Evidence",
+      "outlook7": [
+        "Unavailable",
+        null,
+        "No validated forecast is available for this collected-data snapshot.",
+        "No forecast"
+      ],
+      "outlook14": [
+        "Unavailable",
+        null,
+        "No validated forecast is available for this collected-data snapshot.",
+        "No forecast"
+      ],
+      "comparisonArea": "Point Cook 3030",
+      "comparisonStores": {
+        "coles": "Coles Point Cook Stockland",
+        "woolworths": "Woolworths Point Cook Town Centre"
+      },
+      "observations": [
+        {
+          "retailer": "coles",
+          "storeId": "store_coles_point_cook_stockland",
+          "storeName": "Coles Point Cook Stockland",
+          "areaId": "area_point_cook_3030",
+          "observedAt": "2026-09-27T23:38:00+10:00",
+          "price": 5.5,
+          "wasPrice": null,
+          "promotion": false,
+          "promotionText": null,
+          "unitPrice": 5.5,
+          "unit": "1L",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.coles.com.au/product/cocobella-coconut-water-straight-up-1l-1251527"
+        },
+        {
+          "retailer": "woolworths",
+          "storeId": "store_woolworths_point_cook_stockland",
+          "storeName": "Woolworths Point Cook Town Centre",
+          "areaId": "area_point_cook_3030",
+          "observedAt": "2026-09-28T00:06:12.077+10:00",
+          "price": 2.75,
+          "wasPrice": 5.5,
+          "promotion": true,
+          "promotionText": "Save $2.75",
+          "unitPrice": 2.75,
+          "unit": "litre",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.woolworths.com.au/shop/productdetails/724514/cocobella-coconut-water-straight-up"
+        },
+        {
+          "retailer": "woolworths",
+          "storeId": "store_woolworths_clayton_mcity",
+          "storeName": "Woolworths Clayton M-City",
+          "areaId": "area_clayton_3168",
+          "observedAt": "2026-09-28T00:08:31.665+10:00",
+          "price": 2.75,
+          "wasPrice": 5.5,
+          "promotion": true,
+          "promotionText": "Save $2.75",
+          "unitPrice": 2.75,
+          "unit": "litre",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.woolworths.com.au/shop/productdetails/724514/cocobella-coconut-water-straight-up"
+        }
+      ],
+      "catalogueVerificationStatus": "both_catalogue_pages_verified"
+    },
+    {
+      "slug": "prd_raw_c_pure_natural_coconut_water_1l",
+      "name": "Raw C Pure Natural Coconut Water",
+      "size": "1L",
+      "brand": "Raw C",
+      "category": "Beverages",
+      "extraCategories": [],
+      "stability": "Shelf-stable",
+      "coles": 2.75,
+      "woolworths": 5.5,
+      "typicalColes": null,
+      "typicalWoolworths": null,
+      "cheaper": "Coles",
+      "special": true,
+      "imageUrl": "./assets/products/04-raw-c-pure-natural-coconut-water-1l.png",
+      "imageStatus": "Verified product image",
+      "imageSource": {
+        "status": "confirmed",
+        "officialPage": "https://www.woolworths.com.au/shop/productdetails/785627",
+        "note": null
+      },
+      "unit": "1L",
+      "rec": "Insufficient Evidence",
+      "outlook7": [
+        "Unavailable",
+        null,
+        "No validated forecast is available for this collected-data snapshot.",
+        "No forecast"
+      ],
+      "outlook14": [
+        "Unavailable",
+        null,
+        "No validated forecast is available for this collected-data snapshot.",
+        "No forecast"
+      ],
+      "comparisonArea": "Point Cook 3030",
+      "comparisonStores": {
+        "coles": "Coles Point Cook Stockland",
+        "woolworths": "Woolworths Point Cook Town Centre"
+      },
+      "observations": [
+        {
+          "retailer": "coles",
+          "storeId": "store_coles_point_cook_stockland",
+          "storeName": "Coles Point Cook Stockland",
+          "areaId": "area_point_cook_3030",
+          "observedAt": "2026-09-27T23:38:00+10:00",
+          "price": 2.75,
+          "wasPrice": 5.5,
+          "promotion": true,
+          "promotionText": "$2.75 | Save $2.75 | $2.75/ 1L | Was $5.50",
+          "unitPrice": 2.75,
+          "unit": "1L",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.coles.com.au/product/raw-c-pure-natural-coconut-water-1l-3517705"
+        },
+        {
+          "retailer": "woolworths",
+          "storeId": "store_woolworths_point_cook_stockland",
+          "storeName": "Woolworths Point Cook Town Centre",
+          "areaId": "area_point_cook_3030",
+          "observedAt": "2026-09-28T00:06:14.023+10:00",
+          "price": 5.5,
+          "wasPrice": null,
+          "promotion": false,
+          "promotionText": null,
+          "unitPrice": 5.5,
+          "unit": "litre",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.woolworths.com.au/shop/productdetails/785627/raw-c-coconut-water-pure-natural"
+        },
+        {
+          "retailer": "woolworths",
+          "storeId": "store_woolworths_clayton_mcity",
+          "storeName": "Woolworths Clayton M-City",
+          "areaId": "area_clayton_3168",
+          "observedAt": "2026-09-28T00:08:32.942+10:00",
+          "price": 5.5,
+          "wasPrice": null,
+          "promotion": false,
+          "promotionText": null,
+          "unitPrice": 5.5,
+          "unit": "litre",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.woolworths.com.au/shop/productdetails/785627/raw-c-coconut-water-pure-natural"
+        }
+      ],
+      "catalogueVerificationStatus": "both_catalogue_pages_verified"
+    },
+    {
+      "slug": "prd_pantene_daily_moisture_conditioner_800ml",
+      "name": "Pantene Pro-V Daily Moisture Renewal Conditioner",
+      "size": "800mL",
+      "brand": "Pantene",
+      "category": "Personal Care",
+      "extraCategories": [],
+      "stability": "Shelf-stable",
+      "coles": 21,
+      "woolworths": 10.5,
+      "typicalColes": null,
+      "typicalWoolworths": null,
+      "cheaper": "Woolworths",
+      "special": true,
+      "imageUrl": "./assets/products/05-pantene-daily-moisture-conditioner-800ml.png",
+      "imageStatus": "Verified product image",
+      "imageSource": {
+        "status": "confirmed",
+        "officialPage": "https://www.woolworths.com.au/shop/productdetails/6059974",
+        "note": null
+      },
+      "unit": "100 millilitres",
+      "rec": "Insufficient Evidence",
+      "outlook7": [
+        "Unavailable",
+        null,
+        "No validated forecast is available for this collected-data snapshot.",
+        "No forecast"
+      ],
+      "outlook14": [
+        "Unavailable",
+        null,
+        "No validated forecast is available for this collected-data snapshot.",
+        "No forecast"
+      ],
+      "comparisonArea": "Point Cook 3030",
+      "comparisonStores": {
+        "coles": "Coles Point Cook Stockland",
+        "woolworths": "Woolworths Point Cook Town Centre"
+      },
+      "observations": [
+        {
+          "retailer": "coles",
+          "storeId": "store_coles_point_cook_stockland",
+          "storeName": "Coles Point Cook Stockland",
+          "areaId": "area_point_cook_3030",
+          "observedAt": "2026-09-27T23:38:00+10:00",
+          "price": 21,
+          "wasPrice": null,
+          "promotion": false,
+          "promotionText": null,
+          "unitPrice": 2.63,
+          "unit": "100mL",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.coles.com.au/product/pantene-pro-v-conditioner-daily-moisture-renewal-800ml-1646784"
+        },
+        {
+          "retailer": "woolworths",
+          "storeId": "store_woolworths_point_cook_stockland",
+          "storeName": "Woolworths Point Cook Town Centre",
+          "areaId": "area_point_cook_3030",
+          "observedAt": "2026-09-28T00:06:20.830+10:00",
+          "price": 10.5,
+          "wasPrice": 21,
+          "promotion": true,
+          "promotionText": "Save $10.50",
+          "unitPrice": 1.31,
+          "unit": "100 millilitres",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.woolworths.com.au/shop/productdetails/6059974/pantene-pro-v-daily-moisture-renewal-conditioner"
+        },
+        {
+          "retailer": "woolworths",
+          "storeId": "store_woolworths_clayton_mcity",
+          "storeName": "Woolworths Clayton M-City",
+          "areaId": "area_clayton_3168",
+          "observedAt": "2026-09-28T00:08:38.267+10:00",
+          "price": 10.5,
+          "wasPrice": 21,
+          "promotion": true,
+          "promotionText": "Save $10.50",
+          "unitPrice": 1.31,
+          "unit": "100 millilitres",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.woolworths.com.au/shop/productdetails/6059974/pantene-pro-v-daily-moisture-renewal-conditioner"
+        }
+      ],
+      "catalogueVerificationStatus": "both_catalogue_pages_verified"
+    },
+    {
+      "slug": "prd_dove_intensive_repair_conditioner_850ml",
+      "name": "Dove Intensive Repair Conditioner",
+      "size": "850mL",
+      "brand": "Dove",
+      "category": "Personal Care",
+      "extraCategories": [],
+      "stability": "Shelf-stable",
+      "coles": 19.5,
+      "woolworths": 13.65,
+      "typicalColes": null,
+      "typicalWoolworths": null,
+      "cheaper": "Woolworths",
+      "special": true,
+      "imageUrl": "./assets/products/06-dove-intensive-repair-conditioner-850ml.png",
+      "imageStatus": "Verified product image",
+      "imageSource": {
+        "status": "confirmed",
+        "officialPage": "https://www.woolworths.com.au/shop/productdetails/6004004",
+        "note": null
+      },
+      "unit": "100 millilitres",
+      "rec": "Insufficient Evidence",
+      "outlook7": [
+        "Unavailable",
+        null,
+        "No validated forecast is available for this collected-data snapshot.",
+        "No forecast"
+      ],
+      "outlook14": [
+        "Unavailable",
+        null,
+        "No validated forecast is available for this collected-data snapshot.",
+        "No forecast"
+      ],
+      "comparisonArea": "Point Cook 3030",
+      "comparisonStores": {
+        "coles": "Coles Point Cook Stockland",
+        "woolworths": "Woolworths Point Cook Town Centre"
+      },
+      "observations": [
+        {
+          "retailer": "coles",
+          "storeId": "store_coles_point_cook_stockland",
+          "storeName": "Coles Point Cook Stockland",
+          "areaId": "area_point_cook_3030",
+          "observedAt": "2026-09-27T23:38:00+10:00",
+          "price": 19.5,
+          "wasPrice": null,
+          "promotion": false,
+          "promotionText": null,
+          "unitPrice": 2.29,
+          "unit": "100mL",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.coles.com.au/product/dove-damage-therapy-conditioner-intensive-repair-850ml-1647084"
+        },
+        {
+          "retailer": "woolworths",
+          "storeId": "store_woolworths_point_cook_stockland",
+          "storeName": "Woolworths Point Cook Town Centre",
+          "areaId": "area_point_cook_3030",
+          "observedAt": "2026-09-28T00:06:22.662+10:00",
+          "price": 13.65,
+          "wasPrice": 19.5,
+          "promotion": true,
+          "promotionText": "Save $5.85",
+          "unitPrice": 1.61,
+          "unit": "100 millilitres",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.woolworths.com.au/shop/productdetails/6059899/dove-damage-therapy-intensive-repair-ceramide-conditioner"
+        },
+        {
+          "retailer": "woolworths",
+          "storeId": "store_woolworths_clayton_mcity",
+          "storeName": "Woolworths Clayton M-City",
+          "areaId": "area_clayton_3168",
+          "observedAt": "2026-09-28T00:08:39.614+10:00",
+          "price": 13.65,
+          "wasPrice": 19.5,
+          "promotion": true,
+          "promotionText": "Save $5.85",
+          "unitPrice": 1.61,
+          "unit": "100 millilitres",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.woolworths.com.au/shop/productdetails/6059899/dove-damage-therapy-intensive-repair-ceramide-conditioner"
+        }
+      ],
+      "catalogueVerificationStatus": "pending_both_retailer_url_check"
+    },
+    {
+      "slug": "prd_colgate_optic_white_renewal_85g",
+      "name": "Colgate Optic White Renewal Toothpaste",
+      "size": "85g",
+      "brand": "Colgate",
+      "category": "Personal Care",
+      "extraCategories": [],
+      "stability": "Shelf-stable",
+      "coles": null,
+      "woolworths": null,
+      "typicalColes": null,
+      "typicalWoolworths": null,
+      "cheaper": null,
+      "special": false,
+      "imageUrl": null,
+      "imageStatus": "Image pending verification",
+      "imageSource": {
+        "status": "needs_variant_decision",
+        "officialPage": null,
+        "note": "Choose Vibrant (Woolworths 080817) or Lasting Fresh (Woolworths 080818 / Coles 3680499)."
+      },
+      "unit": null,
+      "rec": "Insufficient Evidence",
+      "outlook7": [
+        "Unavailable",
+        null,
+        "No validated forecast is available for this collected-data snapshot.",
+        "No forecast"
+      ],
+      "outlook14": [
+        "Unavailable",
+        null,
+        "No validated forecast is available for this collected-data snapshot.",
+        "No forecast"
+      ],
+      "comparisonArea": "Point Cook 3030",
+      "comparisonStores": {
+        "coles": "Coles Point Cook Stockland",
+        "woolworths": "Woolworths Point Cook Town Centre"
+      },
+      "observations": [],
+      "catalogueVerificationStatus": "pending_both_retailer_url_check"
+    },
+    {
+      "slug": "prd_oral_b_3d_white_professional_85g",
+      "name": "Oral-B 3D White Professional Toothpaste",
+      "size": "85g",
+      "brand": "Oral-B",
+      "category": "Personal Care",
+      "extraCategories": [],
+      "stability": "Shelf-stable",
+      "coles": null,
+      "woolworths": null,
+      "typicalColes": null,
+      "typicalWoolworths": null,
+      "cheaper": null,
+      "special": false,
+      "imageUrl": "./assets/products/08-oral-b-3d-white-professional-85g.png",
+      "imageStatus": "Verified product image",
+      "imageSource": {
+        "status": "confirmed",
+        "officialPage": "https://www.woolworths.com.au/shop/productdetails/257958",
+        "note": null
+      },
+      "unit": null,
+      "rec": "Insufficient Evidence",
+      "outlook7": [
+        "Unavailable",
+        null,
+        "No validated forecast is available for this collected-data snapshot.",
+        "No forecast"
+      ],
+      "outlook14": [
+        "Unavailable",
+        null,
+        "No validated forecast is available for this collected-data snapshot.",
+        "No forecast"
+      ],
+      "comparisonArea": "Point Cook 3030",
+      "comparisonStores": {
+        "coles": "Coles Point Cook Stockland",
+        "woolworths": "Woolworths Point Cook Town Centre"
+      },
+      "observations": [],
+      "catalogueVerificationStatus": "pending_both_retailer_url_check"
+    },
+    {
+      "slug": "prd_omo_ultimate_laundry_liquid_2l",
+      "name": "OMO Ultimate Laundry Liquid",
+      "size": "2L",
+      "brand": "OMO",
+      "category": "Household",
+      "extraCategories": [],
+      "stability": "Shelf-stable",
+      "coles": 36,
+      "woolworths": 18,
+      "typicalColes": null,
+      "typicalWoolworths": null,
+      "cheaper": "Woolworths",
+      "special": true,
+      "imageUrl": "./assets/products/09-omo-ultimate-laundry-liquid-2l.png",
+      "imageStatus": "Verified product image",
+      "imageSource": {
+        "status": "confirmed",
+        "officialPage": "https://www.woolworths.com.au/shop/productdetails/208873",
+        "note": null
+      },
+      "unit": "litre",
+      "rec": "Insufficient Evidence",
+      "outlook7": [
+        "Unavailable",
+        null,
+        "No validated forecast is available for this collected-data snapshot.",
+        "No forecast"
+      ],
+      "outlook14": [
+        "Unavailable",
+        null,
+        "No validated forecast is available for this collected-data snapshot.",
+        "No forecast"
+      ],
+      "comparisonArea": "Point Cook 3030",
+      "comparisonStores": {
+        "coles": "Coles Point Cook Stockland",
+        "woolworths": "Woolworths Point Cook Town Centre"
+      },
+      "observations": [
+        {
+          "retailer": "coles",
+          "storeId": "store_coles_point_cook_stockland",
+          "storeName": "Coles Point Cook Stockland",
+          "areaId": "area_point_cook_3030",
+          "observedAt": "2026-09-27T23:38:00+10:00",
+          "price": 36,
+          "wasPrice": null,
+          "promotion": false,
+          "promotionText": null,
+          "unitPrice": 18,
+          "unit": "1L",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.coles.com.au/product/omo-ultimate-laundry-liquid-detergent-40-washes-2l-5004891"
+        },
+        {
+          "retailer": "woolworths",
+          "storeId": "store_woolworths_point_cook_stockland",
+          "storeName": "Woolworths Point Cook Town Centre",
+          "areaId": "area_point_cook_3030",
+          "observedAt": "2026-09-28T00:06:31.040+10:00",
+          "price": 18,
+          "wasPrice": 36,
+          "promotion": true,
+          "promotionText": "Save $18.00",
+          "unitPrice": 9,
+          "unit": "litre",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.woolworths.com.au/shop/productdetails/208873/omo-ultimate-laundry-liquid-detergent"
+        },
+        {
+          "retailer": "woolworths",
+          "storeId": "store_woolworths_clayton_mcity",
+          "storeName": "Woolworths Clayton M-City",
+          "areaId": "area_clayton_3168",
+          "observedAt": "2026-09-28T00:08:49.039+10:00",
+          "price": 18,
+          "wasPrice": 36,
+          "promotion": true,
+          "promotionText": "Save $18.00",
+          "unitPrice": 9,
+          "unit": "litre",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.woolworths.com.au/shop/productdetails/208873/omo-ultimate-laundry-liquid-detergent"
+        }
+      ],
+      "catalogueVerificationStatus": "both_catalogue_pages_verified"
+    },
+    {
+      "slug": "prd_cold_power_advanced_clean_liquid_2l",
+      "name": "Cold Power Advanced Clean Laundry Liquid",
+      "size": "2L",
+      "brand": "Cold Power",
+      "category": "Household",
+      "extraCategories": [],
+      "stability": "Shelf-stable",
+      "coles": 26,
+      "woolworths": 13,
+      "typicalColes": null,
+      "typicalWoolworths": null,
+      "cheaper": "Woolworths",
+      "special": true,
+      "imageUrl": "./assets/products/10-cold-power-advanced-clean-liquid-2l.png",
+      "imageStatus": "Verified product image",
+      "imageSource": {
+        "status": "confirmed",
+        "officialPage": "https://www.woolworths.com.au/shop/productdetails/88163",
+        "note": null
+      },
+      "unit": "litre",
+      "rec": "Insufficient Evidence",
+      "outlook7": [
+        "Unavailable",
+        null,
+        "No validated forecast is available for this collected-data snapshot.",
+        "No forecast"
+      ],
+      "outlook14": [
+        "Unavailable",
+        null,
+        "No validated forecast is available for this collected-data snapshot.",
+        "No forecast"
+      ],
+      "comparisonArea": "Point Cook 3030",
+      "comparisonStores": {
+        "coles": "Coles Point Cook Stockland",
+        "woolworths": "Woolworths Point Cook Town Centre"
+      },
+      "observations": [
+        {
+          "retailer": "coles",
+          "storeId": "store_coles_point_cook_stockland",
+          "storeName": "Coles Point Cook Stockland",
+          "areaId": "area_point_cook_3030",
+          "observedAt": "2026-09-27T23:38:00+10:00",
+          "price": 26,
+          "wasPrice": null,
+          "promotion": false,
+          "promotionText": null,
+          "unitPrice": 13,
+          "unit": "1L",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.coles.com.au/product/cold-power-laundry-liquid-advanced-clean-2l-3774581"
+        },
+        {
+          "retailer": "woolworths",
+          "storeId": "store_woolworths_point_cook_stockland",
+          "storeName": "Woolworths Point Cook Town Centre",
+          "areaId": "area_point_cook_3030",
+          "observedAt": "2026-09-28T00:06:33.225+10:00",
+          "price": 13,
+          "wasPrice": 26,
+          "promotion": true,
+          "promotionText": "Save $13.00",
+          "unitPrice": 6.5,
+          "unit": "litre",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.woolworths.com.au/shop/productdetails/88163/cold-power-advanced-clean-laundry-liquid"
+        },
+        {
+          "retailer": "woolworths",
+          "storeId": "store_woolworths_clayton_mcity",
+          "storeName": "Woolworths Clayton M-City",
+          "areaId": "area_clayton_3168",
+          "observedAt": "2026-09-28T00:08:50.506+10:00",
+          "price": 13,
+          "wasPrice": 26,
+          "promotion": true,
+          "promotionText": "Save $13.00",
+          "unitPrice": 6.5,
+          "unit": "litre",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.woolworths.com.au/shop/productdetails/88163/cold-power-advanced-clean-laundry-liquid"
+        }
+      ],
+      "catalogueVerificationStatus": "pending_both_retailer_url_check"
+    },
+    {
+      "slug": "prd_finish_ultimate_plus_lemon_46pk",
+      "name": "Finish Ultimate Plus Lemon Dishwasher Tablets",
+      "size": "46 pack",
+      "brand": "Finish",
+      "category": "Household",
+      "extraCategories": [],
+      "stability": "Shelf-stable",
+      "coles": 58,
+      "woolworths": 34.8,
+      "typicalColes": null,
+      "typicalWoolworths": null,
+      "cheaper": "Woolworths",
+      "special": true,
+      "imageUrl": "./assets/products/11-finish-ultimate-plus-lemon-46pk.png",
+      "imageStatus": "Verified product image",
+      "imageSource": {
+        "status": "confirmed",
+        "officialPage": "https://www.woolworths.com.au/shop/productdetails/6064968",
+        "note": null
+      },
+      "unit": "1EA",
+      "rec": "Insufficient Evidence",
+      "outlook7": [
+        "Unavailable",
+        null,
+        "No validated forecast is available for this collected-data snapshot.",
+        "No forecast"
+      ],
+      "outlook14": [
+        "Unavailable",
+        null,
+        "No validated forecast is available for this collected-data snapshot.",
+        "No forecast"
+      ],
+      "comparisonArea": "Point Cook 3030",
+      "comparisonStores": {
+        "coles": "Coles Point Cook Stockland",
+        "woolworths": "Woolworths Point Cook Town Centre"
+      },
+      "observations": [
+        {
+          "retailer": "coles",
+          "storeId": "store_coles_point_cook_stockland",
+          "storeName": "Coles Point Cook Stockland",
+          "areaId": "area_point_cook_3030",
+          "observedAt": "2026-09-27T23:38:00+10:00",
+          "price": 58,
+          "wasPrice": null,
+          "promotion": false,
+          "promotionText": null,
+          "unitPrice": 1.26,
+          "unit": "1ea",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.coles.com.au/product/finish-ultimate-plus-dishwashing-tablets-lemon-46-pack-1633873"
+        },
+        {
+          "retailer": "woolworths",
+          "storeId": "store_woolworths_point_cook_stockland",
+          "storeName": "Woolworths Point Cook Town Centre",
+          "areaId": "area_point_cook_3030",
+          "observedAt": "2026-09-28T00:06:35.420+10:00",
+          "price": 34.8,
+          "wasPrice": 58,
+          "promotion": true,
+          "promotionText": "Save $23.20",
+          "unitPrice": 0.76,
+          "unit": "1EA",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.woolworths.com.au/shop/productdetails/6064968/finish-ultimate-plus-dishwashing-tablets-lemon"
+        },
+        {
+          "retailer": "woolworths",
+          "storeId": "store_woolworths_clayton_mcity",
+          "storeName": "Woolworths Clayton M-City",
+          "areaId": "area_clayton_3168",
+          "observedAt": "2026-09-28T00:08:51.898+10:00",
+          "price": 34.8,
+          "wasPrice": 58,
+          "promotion": true,
+          "promotionText": "Save $23.20",
+          "unitPrice": 0.76,
+          "unit": "1EA",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.woolworths.com.au/shop/productdetails/6064968/finish-ultimate-plus-dishwashing-tablets-lemon"
+        }
+      ],
+      "catalogueVerificationStatus": "pending_pack_and_url_check"
+    },
+    {
+      "slug": "prd_fairy_platinum_plus_lemon_42pk",
+      "name": "Fairy Platinum Plus Lemon Dishwasher Tablets",
+      "size": "42 pack",
+      "brand": "Fairy",
+      "category": "Household",
+      "extraCategories": [],
+      "stability": "Shelf-stable",
+      "coles": 27.6,
+      "woolworths": 28,
+      "typicalColes": null,
+      "typicalWoolworths": null,
+      "cheaper": "Coles",
+      "special": true,
+      "imageUrl": "./assets/products/12-fairy-platinum-plus-lemon-42pk.png",
+      "imageStatus": "Verified product image",
+      "imageSource": {
+        "status": "confirmed",
+        "officialPage": "https://www.woolworths.com.au/shop/productdetails/154893",
+        "note": null
+      },
+      "unit": "1ea",
+      "rec": "Insufficient Evidence",
+      "outlook7": [
+        "Unavailable",
+        null,
+        "No validated forecast is available for this collected-data snapshot.",
+        "No forecast"
+      ],
+      "outlook14": [
+        "Unavailable",
+        null,
+        "No validated forecast is available for this collected-data snapshot.",
+        "No forecast"
+      ],
+      "comparisonArea": "Point Cook 3030",
+      "comparisonStores": {
+        "coles": "Coles Point Cook Stockland",
+        "woolworths": "Woolworths Point Cook Town Centre"
+      },
+      "observations": [
+        {
+          "retailer": "coles",
+          "storeId": "store_coles_point_cook_stockland",
+          "storeName": "Coles Point Cook Stockland",
+          "areaId": "area_point_cook_3030",
+          "observedAt": "2026-09-27T23:38:00+10:00",
+          "price": 27.6,
+          "wasPrice": 46,
+          "promotion": true,
+          "promotionText": "$27.60 | Save $18.40 | $0.66/ 1ea | Was $46.00",
+          "unitPrice": 0.66,
+          "unit": "1ea",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.coles.com.au/product/fairy-platinum-plus-lemon-dishwashing-tablets-42-pack-3967392"
+        },
+        {
+          "retailer": "woolworths",
+          "storeId": "store_woolworths_point_cook_stockland",
+          "storeName": "Woolworths Point Cook Town Centre",
+          "areaId": "area_point_cook_3030",
+          "observedAt": "2026-09-28T00:06:40.175+10:00",
+          "price": 28,
+          "wasPrice": null,
+          "promotion": false,
+          "promotionText": null,
+          "unitPrice": 0.67,
+          "unit": "1EA",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.woolworths.com.au/shop/productdetails/154893/fairy-platinum-plus-lemon-dishwashing-tablets"
+        },
+        {
+          "retailer": "woolworths",
+          "storeId": "store_woolworths_clayton_mcity",
+          "storeName": "Woolworths Clayton M-City",
+          "areaId": "area_clayton_3168",
+          "observedAt": "2026-09-28T00:08:56.636+10:00",
+          "price": 28,
+          "wasPrice": null,
+          "promotion": false,
+          "promotionText": null,
+          "unitPrice": 0.67,
+          "unit": "1EA",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.woolworths.com.au/shop/productdetails/154893/fairy-platinum-plus-lemon-dishwashing-tablets"
+        }
+      ],
+      "catalogueVerificationStatus": "pending_pack_and_url_check"
+    },
+    {
+      "slug": "prd_moccona_classic_medium_roast_200g",
+      "name": "Moccona Classic Medium Roast Instant Coffee",
+      "size": "200g",
+      "brand": "Moccona",
+      "category": "Pantry",
+      "extraCategories": [],
+      "stability": "Shelf-stable",
+      "coles": 23.6,
+      "woolworths": 14,
+      "typicalColes": null,
+      "typicalWoolworths": null,
+      "cheaper": "Woolworths",
+      "special": true,
+      "imageUrl": "./assets/products/13-moccona-classic-medium-roast-200g.png",
+      "imageStatus": "Verified product image",
+      "imageSource": {
+        "status": "confirmed",
+        "officialPage": "https://www.coles.com.au/product/moccona-classic-medium-roast-instant-coffee-200g-231251",
+        "note": null
+      },
+      "unit": "100 grams",
+      "rec": "Insufficient Evidence",
+      "outlook7": [
+        "Unavailable",
+        null,
+        "No validated forecast is available for this collected-data snapshot.",
+        "No forecast"
+      ],
+      "outlook14": [
+        "Unavailable",
+        null,
+        "No validated forecast is available for this collected-data snapshot.",
+        "No forecast"
+      ],
+      "comparisonArea": "Point Cook 3030",
+      "comparisonStores": {
+        "coles": "Coles Point Cook Stockland",
+        "woolworths": "Woolworths Point Cook Town Centre"
+      },
+      "observations": [
+        {
+          "retailer": "coles",
+          "storeId": "store_coles_point_cook_stockland",
+          "storeName": "Coles Point Cook Stockland",
+          "areaId": "area_point_cook_3030",
+          "observedAt": "2026-09-27T23:38:00+10:00",
+          "price": 23.6,
+          "wasPrice": null,
+          "promotion": false,
+          "promotionText": null,
+          "unitPrice": 11.8,
+          "unit": "100g",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.coles.com.au/product/moccona-classic-medium-roast-instant-coffee-200g-231251"
+        },
+        {
+          "retailer": "woolworths",
+          "storeId": "store_woolworths_point_cook_stockland",
+          "storeName": "Woolworths Point Cook Town Centre",
+          "areaId": "area_point_cook_3030",
+          "observedAt": "2026-09-28T00:06:41.466+10:00",
+          "price": 14,
+          "wasPrice": 23.6,
+          "promotion": true,
+          "promotionText": "Save $9.60",
+          "unitPrice": 7,
+          "unit": "100 grams",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.woolworths.com.au/shop/productdetails/35681/moccona-freeze-dried-instant-coffee-classic-medium-roast"
+        },
+        {
+          "retailer": "woolworths",
+          "storeId": "store_woolworths_clayton_mcity",
+          "storeName": "Woolworths Clayton M-City",
+          "areaId": "area_clayton_3168",
+          "observedAt": "2026-09-28T00:08:58.006+10:00",
+          "price": 14,
+          "wasPrice": 23.6,
+          "promotion": true,
+          "promotionText": "Save $9.60",
+          "unitPrice": 7,
+          "unit": "100 grams",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.woolworths.com.au/shop/productdetails/35681/moccona-freeze-dried-instant-coffee-classic-medium-roast"
+        }
+      ],
+      "catalogueVerificationStatus": "coles_page_verified_woolworths_pending"
+    },
+    {
+      "slug": "prd_nescafe_gold_original_200g",
+      "name": "Nescafé Gold Original Instant Coffee",
+      "size": "200g",
+      "brand": "Nescafé",
+      "category": "Pantry",
+      "extraCategories": [],
+      "stability": "Shelf-stable",
+      "coles": 23,
+      "woolworths": 23,
+      "typicalColes": null,
+      "typicalWoolworths": null,
+      "cheaper": "Coles",
+      "special": false,
+      "imageUrl": "./assets/products/14-nescafe-gold-original-200g.png",
+      "imageStatus": "Verified product image",
+      "imageSource": {
+        "status": "confirmed",
+        "officialPage": "https://www.woolworths.com.au/shop/productdetails/687062",
+        "note": null
+      },
+      "unit": "100g",
+      "rec": "Insufficient Evidence",
+      "outlook7": [
+        "Unavailable",
+        null,
+        "No validated forecast is available for this collected-data snapshot.",
+        "No forecast"
+      ],
+      "outlook14": [
+        "Unavailable",
+        null,
+        "No validated forecast is available for this collected-data snapshot.",
+        "No forecast"
+      ],
+      "comparisonArea": "Point Cook 3030",
+      "comparisonStores": {
+        "coles": "Coles Point Cook Stockland",
+        "woolworths": "Woolworths Point Cook Town Centre"
+      },
+      "observations": [
+        {
+          "retailer": "coles",
+          "storeId": "store_coles_point_cook_stockland",
+          "storeName": "Coles Point Cook Stockland",
+          "areaId": "area_point_cook_3030",
+          "observedAt": "2026-09-27T23:38:00+10:00",
+          "price": 23,
+          "wasPrice": null,
+          "promotion": false,
+          "promotionText": null,
+          "unitPrice": 11.5,
+          "unit": "100g",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.coles.com.au/product/nescafe-gold-original-instant-coffee-jar-200g-8048033"
+        },
+        {
+          "retailer": "woolworths",
+          "storeId": "store_woolworths_point_cook_stockland",
+          "storeName": "Woolworths Point Cook Town Centre",
+          "areaId": "area_point_cook_3030",
+          "observedAt": "2026-09-28T00:06:42.809+10:00",
+          "price": 23,
+          "wasPrice": null,
+          "promotion": false,
+          "promotionText": null,
+          "unitPrice": 11.5,
+          "unit": "100 grams",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.woolworths.com.au/shop/productdetails/687062/nescafe-gold-original-soluble-instant-coffee"
+        },
+        {
+          "retailer": "woolworths",
+          "storeId": "store_woolworths_clayton_mcity",
+          "storeName": "Woolworths Clayton M-City",
+          "areaId": "area_clayton_3168",
+          "observedAt": "2026-09-28T00:09:08.900+10:00",
+          "price": 23,
+          "wasPrice": null,
+          "promotion": false,
+          "promotionText": null,
+          "unitPrice": 11.5,
+          "unit": "100 grams",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.woolworths.com.au/shop/productdetails/687062/nescafe-gold-original-soluble-instant-coffee"
+        }
+      ],
+      "catalogueVerificationStatus": "pending_both_retailer_url_check"
+    },
+    {
+      "slug": "prd_dolmio_extra_bolognese_500g",
+      "name": "Dolmio Extra Bolognese Pasta Sauce",
+      "size": "500g",
+      "brand": "Dolmio",
+      "category": "Pantry",
+      "extraCategories": [],
+      "stability": "Shelf-stable",
+      "coles": 4.6,
+      "woolworths": 4.6,
+      "typicalColes": null,
+      "typicalWoolworths": null,
+      "cheaper": "Coles",
+      "special": true,
+      "imageUrl": "./assets/products/15-dolmio-extra-bolognese-500g.png",
+      "imageStatus": "Verified product image",
+      "imageSource": {
+        "status": "confirmed",
+        "officialPage": "https://www.woolworths.com.au/shop/productdetails/758286",
+        "note": null
+      },
+      "unit": "100g",
+      "rec": "Insufficient Evidence",
+      "outlook7": [
+        "Unavailable",
+        null,
+        "No validated forecast is available for this collected-data snapshot.",
+        "No forecast"
+      ],
+      "outlook14": [
+        "Unavailable",
+        null,
+        "No validated forecast is available for this collected-data snapshot.",
+        "No forecast"
+      ],
+      "comparisonArea": "Point Cook 3030",
+      "comparisonStores": {
+        "coles": "Coles Point Cook Stockland",
+        "woolworths": "Woolworths Point Cook Town Centre"
+      },
+      "observations": [
+        {
+          "retailer": "coles",
+          "storeId": "store_coles_point_cook_stockland",
+          "storeName": "Coles Point Cook Stockland",
+          "areaId": "area_point_cook_3030",
+          "observedAt": "2026-09-27T23:38:00+10:00",
+          "price": 4.6,
+          "wasPrice": null,
+          "promotion": true,
+          "promotionText": "$4.60 | Any 2 | $6 | $0.60/ 100g",
+          "unitPrice": 0.6,
+          "unit": "100g",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.coles.com.au/product/dolmio-extra-pasta-sauce-bolognese-500g-1274373"
+        },
+        {
+          "retailer": "woolworths",
+          "storeId": "store_woolworths_point_cook_stockland",
+          "storeName": "Woolworths Point Cook Town Centre",
+          "areaId": "area_point_cook_3030",
+          "observedAt": "2026-09-28T00:06:48.118+10:00",
+          "price": 4.6,
+          "wasPrice": null,
+          "promotion": false,
+          "promotionText": null,
+          "unitPrice": 0.92,
+          "unit": "100 grams",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.woolworths.com.au/shop/productdetails/758286/dolmio-extra-bolognese-tomato-pasta-sauce"
+        },
+        {
+          "retailer": "woolworths",
+          "storeId": "store_woolworths_clayton_mcity",
+          "storeName": "Woolworths Clayton M-City",
+          "areaId": "area_clayton_3168",
+          "observedAt": "2026-09-28T00:09:14.363+10:00",
+          "price": 4.6,
+          "wasPrice": null,
+          "promotion": false,
+          "promotionText": null,
+          "unitPrice": 0.92,
+          "unit": "100 grams",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.woolworths.com.au/shop/productdetails/758286/dolmio-extra-bolognese-tomato-pasta-sauce"
+        }
+      ],
+      "catalogueVerificationStatus": "pending_both_retailer_url_check"
+    },
+    {
+      "slug": "prd_barilla_bolognese_400g",
+      "name": "Barilla Bolognese Pasta Sauce",
+      "size": "400g",
+      "brand": "Barilla",
+      "category": "Pantry",
+      "extraCategories": [],
+      "stability": "Shelf-stable",
+      "coles": 4.9,
+      "woolworths": 4.9,
+      "typicalColes": null,
+      "typicalWoolworths": null,
+      "cheaper": "Coles",
+      "special": true,
+      "imageUrl": "./assets/products/16-barilla-bolognese-400g.png",
+      "imageStatus": "Verified product image",
+      "imageSource": {
+        "status": "confirmed",
+        "officialPage": "https://www.woolworths.com.au/shop/productdetails/315578",
+        "note": null
+      },
+      "unit": "100g",
+      "rec": "Insufficient Evidence",
+      "outlook7": [
+        "Unavailable",
+        null,
+        "No validated forecast is available for this collected-data snapshot.",
+        "No forecast"
+      ],
+      "outlook14": [
+        "Unavailable",
+        null,
+        "No validated forecast is available for this collected-data snapshot.",
+        "No forecast"
+      ],
+      "comparisonArea": "Point Cook 3030",
+      "comparisonStores": {
+        "coles": "Coles Point Cook Stockland",
+        "woolworths": "Woolworths Point Cook Town Centre"
+      },
+      "observations": [
+        {
+          "retailer": "coles",
+          "storeId": "store_coles_point_cook_stockland",
+          "storeName": "Coles Point Cook Stockland",
+          "areaId": "area_point_cook_3030",
+          "observedAt": "2026-09-27T23:38:00+10:00",
+          "price": 4.9,
+          "wasPrice": null,
+          "promotion": true,
+          "promotionText": "$4.90 | Any 2 | $7.50 | $0.94/ 100g",
+          "unitPrice": 0.94,
+          "unit": "100g",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.coles.com.au/product/barilla-bolognese-pasta-sauce-400g-1564351"
+        },
+        {
+          "retailer": "woolworths",
+          "storeId": "store_woolworths_point_cook_stockland",
+          "storeName": "Woolworths Point Cook Town Centre",
+          "areaId": "area_point_cook_3030",
+          "observedAt": "2026-09-28T00:06:49.265+10:00",
+          "price": 4.9,
+          "wasPrice": null,
+          "promotion": false,
+          "promotionText": null,
+          "unitPrice": 1.23,
+          "unit": "100 grams",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.woolworths.com.au/shop/productdetails/315578/barilla-bolognese-pasta-sauce-bolognese"
+        },
+        {
+          "retailer": "woolworths",
+          "storeId": "store_woolworths_clayton_mcity",
+          "storeName": "Woolworths Clayton M-City",
+          "areaId": "area_clayton_3168",
+          "observedAt": "2026-09-28T00:09:15.786+10:00",
+          "price": 4.9,
+          "wasPrice": null,
+          "promotion": false,
+          "promotionText": null,
+          "unitPrice": 1.23,
+          "unit": "100 grams",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.woolworths.com.au/shop/productdetails/315578/barilla-bolognese-pasta-sauce-bolognese"
+        }
+      ],
+      "catalogueVerificationStatus": "pending_both_retailer_url_check"
+    },
+    {
+      "slug": "prd_cobram_estate_classic_evoo_750ml",
+      "name": "Cobram Estate Classic Extra Virgin Olive Oil",
+      "size": "750mL",
+      "brand": "Cobram Estate",
+      "category": "Pantry",
+      "extraCategories": [],
+      "stability": "Shelf-stable",
+      "coles": 15,
+      "woolworths": 25,
+      "typicalColes": null,
+      "typicalWoolworths": null,
+      "cheaper": "Coles",
+      "special": true,
+      "imageUrl": "./assets/products/17-cobram-estate-classic-evoo-750ml.png",
+      "imageStatus": "Verified product image",
+      "imageSource": {
+        "status": "confirmed",
+        "officialPage": "https://www.woolworths.com.au/shop/productdetails/237418",
+        "note": null
+      },
+      "unit": "100mL",
+      "rec": "Insufficient Evidence",
+      "outlook7": [
+        "Unavailable",
+        null,
+        "No validated forecast is available for this collected-data snapshot.",
+        "No forecast"
+      ],
+      "outlook14": [
+        "Unavailable",
+        null,
+        "No validated forecast is available for this collected-data snapshot.",
+        "No forecast"
+      ],
+      "comparisonArea": "Point Cook 3030",
+      "comparisonStores": {
+        "coles": "Coles Point Cook Stockland",
+        "woolworths": "Woolworths Point Cook Town Centre"
+      },
+      "observations": [
+        {
+          "retailer": "coles",
+          "storeId": "store_coles_point_cook_stockland",
+          "storeName": "Coles Point Cook Stockland",
+          "areaId": "area_point_cook_3030",
+          "observedAt": "2026-09-27T23:38:00+10:00",
+          "price": 15,
+          "wasPrice": 25,
+          "promotion": true,
+          "promotionText": "$15.00 | Save $10.00 | $2.00/ 100mL | Was $25.00",
+          "unitPrice": 2,
+          "unit": "100mL",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.coles.com.au/product/cobram-estate-extra-virgin-olive-oil-750ml-4491469"
+        },
+        {
+          "retailer": "woolworths",
+          "storeId": "store_woolworths_point_cook_stockland",
+          "storeName": "Woolworths Point Cook Town Centre",
+          "areaId": "area_point_cook_3030",
+          "observedAt": "2026-09-28T00:06:50.556+10:00",
+          "price": 25,
+          "wasPrice": null,
+          "promotion": false,
+          "promotionText": null,
+          "unitPrice": 3.33,
+          "unit": "100 millilitres",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.woolworths.com.au/shop/productdetails/237418/cobram-estate-classic-extra-virgin-olive-oil"
+        },
+        {
+          "retailer": "woolworths",
+          "storeId": "store_woolworths_clayton_mcity",
+          "storeName": "Woolworths Clayton M-City",
+          "areaId": "area_clayton_3168",
+          "observedAt": "2026-09-28T00:09:17.075+10:00",
+          "price": 25,
+          "wasPrice": null,
+          "promotion": false,
+          "promotionText": null,
+          "unitPrice": 3.33,
+          "unit": "100 millilitres",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.woolworths.com.au/shop/productdetails/237418/cobram-estate-classic-extra-virgin-olive-oil"
+        }
+      ],
+      "catalogueVerificationStatus": "pending_both_retailer_url_check"
+    },
+    {
+      "slug": "prd_red_island_evoo_500ml",
+      "name": "Red Island Extra Virgin Olive Oil",
+      "size": "500mL",
+      "brand": "Red Island",
+      "category": "Pantry",
+      "extraCategories": [],
+      "stability": "Shelf-stable",
+      "coles": 13,
+      "woolworths": 13,
+      "typicalColes": null,
+      "typicalWoolworths": null,
+      "cheaper": "Coles",
+      "special": false,
+      "imageUrl": "./assets/products/18-red-island-evoo-500ml.png",
+      "imageStatus": "Verified product image",
+      "imageSource": {
+        "status": "confirmed",
+        "officialPage": "https://www.woolworths.com.au/shop/productdetails/217225",
+        "note": null
+      },
+      "unit": "100mL",
+      "rec": "Insufficient Evidence",
+      "outlook7": [
+        "Unavailable",
+        null,
+        "No validated forecast is available for this collected-data snapshot.",
+        "No forecast"
+      ],
+      "outlook14": [
+        "Unavailable",
+        null,
+        "No validated forecast is available for this collected-data snapshot.",
+        "No forecast"
+      ],
+      "comparisonArea": "Point Cook 3030",
+      "comparisonStores": {
+        "coles": "Coles Point Cook Stockland",
+        "woolworths": "Woolworths Point Cook Town Centre"
+      },
+      "observations": [
+        {
+          "retailer": "coles",
+          "storeId": "store_coles_point_cook_stockland",
+          "storeName": "Coles Point Cook Stockland",
+          "areaId": "area_point_cook_3030",
+          "observedAt": "2026-09-27T23:38:00+10:00",
+          "price": 13,
+          "wasPrice": null,
+          "promotion": false,
+          "promotionText": null,
+          "unitPrice": 2.6,
+          "unit": "100mL",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.coles.com.au/product/red-island-extra-virgin-olive-oil-500ml-4485229"
+        },
+        {
+          "retailer": "woolworths",
+          "storeId": "store_woolworths_point_cook_stockland",
+          "storeName": "Woolworths Point Cook Town Centre",
+          "areaId": "area_point_cook_3030",
+          "observedAt": "2026-09-28T00:06:58.279+10:00",
+          "price": 13,
+          "wasPrice": null,
+          "promotion": false,
+          "promotionText": null,
+          "unitPrice": 2.6,
+          "unit": "100 millilitres",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.woolworths.com.au/shop/productdetails/217225/red-island-cold-pressed-olive-oil-extra-virgin"
+        },
+        {
+          "retailer": "woolworths",
+          "storeId": "store_woolworths_clayton_mcity",
+          "storeName": "Woolworths Clayton M-City",
+          "areaId": "area_clayton_3168",
+          "observedAt": "2026-09-28T00:09:22.072+10:00",
+          "price": 13,
+          "wasPrice": null,
+          "promotion": false,
+          "promotionText": null,
+          "unitPrice": 2.6,
+          "unit": "100 millilitres",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.woolworths.com.au/shop/productdetails/217225/red-island-cold-pressed-olive-oil-extra-virgin"
+        }
+      ],
+      "catalogueVerificationStatus": "pending_both_retailer_url_check"
+    },
+    {
+      "slug": "prd_bega_smooth_peanut_butter_470g",
+      "name": "Bega Smooth Peanut Butter",
+      "size": "470g",
+      "brand": "Bega",
+      "category": "Pantry",
+      "extraCategories": [],
+      "stability": "Shelf-stable",
+      "coles": 5.5,
+      "woolworths": 5.5,
+      "typicalColes": null,
+      "typicalWoolworths": null,
+      "cheaper": "Coles",
+      "special": true,
+      "imageUrl": "./assets/products/19-bega-smooth-peanut-butter-470g.png",
+      "imageStatus": "Verified product image",
+      "imageSource": {
+        "status": "confirmed",
+        "officialPage": "https://www.woolworths.com.au/shop/productdetails/98046",
+        "note": null
+      },
+      "unit": "100g",
+      "rec": "Insufficient Evidence",
+      "outlook7": [
+        "Unavailable",
+        null,
+        "No validated forecast is available for this collected-data snapshot.",
+        "No forecast"
+      ],
+      "outlook14": [
+        "Unavailable",
+        null,
+        "No validated forecast is available for this collected-data snapshot.",
+        "No forecast"
+      ],
+      "comparisonArea": "Point Cook 3030",
+      "comparisonStores": {
+        "coles": "Coles Point Cook Stockland",
+        "woolworths": "Woolworths Point Cook Town Centre"
+      },
+      "observations": [
+        {
+          "retailer": "coles",
+          "storeId": "store_coles_point_cook_stockland",
+          "storeName": "Coles Point Cook Stockland",
+          "areaId": "area_point_cook_3030",
+          "observedAt": "2026-09-27T23:38:00+10:00",
+          "price": 5.5,
+          "wasPrice": 6.9,
+          "promotion": true,
+          "promotionText": "$5.50 | Save $1.40 | $1.17/ 100g | Was $6.90",
+          "unitPrice": 1.17,
+          "unit": "100g",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.coles.com.au/product/bega-peanut-butter-smooth-470g-5398753"
+        },
+        {
+          "retailer": "woolworths",
+          "storeId": "store_woolworths_point_cook_stockland",
+          "storeName": "Woolworths Point Cook Town Centre",
+          "areaId": "area_point_cook_3030",
+          "observedAt": "2026-09-28T00:06:59.525+10:00",
+          "price": 5.5,
+          "wasPrice": 6.9,
+          "promotion": true,
+          "promotionText": "Save $1.40",
+          "unitPrice": 1.17,
+          "unit": "100 grams",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.woolworths.com.au/shop/productdetails/98046/bega-peanut-butter-smooth"
+        },
+        {
+          "retailer": "woolworths",
+          "storeId": "store_woolworths_clayton_mcity",
+          "storeName": "Woolworths Clayton M-City",
+          "areaId": "area_clayton_3168",
+          "observedAt": "2026-09-28T00:09:23.839+10:00",
+          "price": 5.5,
+          "wasPrice": 6.9,
+          "promotion": true,
+          "promotionText": "Save $1.40",
+          "unitPrice": 1.17,
+          "unit": "100 grams",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.woolworths.com.au/shop/productdetails/98046/bega-peanut-butter-smooth"
+        }
+      ],
+      "catalogueVerificationStatus": "pending_both_retailer_url_check"
+    },
+    {
+      "slug": "prd_mayvers_smooth_peanut_butter_375g",
+      "name": "Mayver's Smooth Peanut Butter",
+      "size": "375g",
+      "brand": "Mayver's",
+      "category": "Pantry",
+      "extraCategories": [],
+      "stability": "Shelf-stable",
+      "coles": 4.4,
+      "woolworths": 6.3,
+      "typicalColes": null,
+      "typicalWoolworths": null,
+      "cheaper": "Coles",
+      "special": true,
+      "imageUrl": "./assets/products/20-mayvers-smooth-peanut-butter-375g.png",
+      "imageStatus": "Verified product image",
+      "imageSource": {
+        "status": "confirmed",
+        "officialPage": "https://www.woolworths.com.au/shop/productdetails/781030",
+        "note": null
+      },
+      "unit": "100g",
+      "rec": "Insufficient Evidence",
+      "outlook7": [
+        "Unavailable",
+        null,
+        "No validated forecast is available for this collected-data snapshot.",
+        "No forecast"
+      ],
+      "outlook14": [
+        "Unavailable",
+        null,
+        "No validated forecast is available for this collected-data snapshot.",
+        "No forecast"
+      ],
+      "comparisonArea": "Point Cook 3030",
+      "comparisonStores": {
+        "coles": "Coles Point Cook Stockland",
+        "woolworths": "Woolworths Point Cook Town Centre"
+      },
+      "observations": [
+        {
+          "retailer": "coles",
+          "storeId": "store_coles_point_cook_stockland",
+          "storeName": "Coles Point Cook Stockland",
+          "areaId": "area_point_cook_3030",
+          "observedAt": "2026-09-27T23:38:00+10:00",
+          "price": 4.4,
+          "wasPrice": 6.3,
+          "promotion": true,
+          "promotionText": "$4.40 | Save $1.90 | $1.17/ 100g | Was $6.30",
+          "unitPrice": 1.17,
+          "unit": "100g",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.coles.com.au/product/mayver's-smooth-natural-peanut-butter-375g-2621643"
+        },
+        {
+          "retailer": "woolworths",
+          "storeId": "store_woolworths_point_cook_stockland",
+          "storeName": "Woolworths Point Cook Town Centre",
+          "areaId": "area_point_cook_3030",
+          "observedAt": "2026-09-28T00:07:00.728+10:00",
+          "price": 6.3,
+          "wasPrice": null,
+          "promotion": false,
+          "promotionText": null,
+          "unitPrice": 1.68,
+          "unit": "100 grams",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.woolworths.com.au/shop/productdetails/781030/mayver-s-smooth-peanut-butter"
+        },
+        {
+          "retailer": "woolworths",
+          "storeId": "store_woolworths_clayton_mcity",
+          "storeName": "Woolworths Clayton M-City",
+          "areaId": "area_clayton_3168",
+          "observedAt": "2026-09-28T00:09:25.429+10:00",
+          "price": 6.3,
+          "wasPrice": null,
+          "promotion": false,
+          "promotionText": null,
+          "unitPrice": 1.68,
+          "unit": "100 grams",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.woolworths.com.au/shop/productdetails/781030/mayver-s-smooth-peanut-butter"
+        }
+      ],
+      "catalogueVerificationStatus": "pending_both_retailer_url_check"
+    },
+    {
+      "slug": "prd_quilton_3ply_unscented_12pk",
+      "name": "Quilton 3 Ply Unscented Toilet Tissue",
+      "size": "12 pack",
+      "brand": "Quilton",
+      "category": "Household",
+      "extraCategories": [],
+      "stability": "Shelf-stable",
+      "coles": 8.5,
+      "woolworths": null,
+      "typicalColes": null,
+      "typicalWoolworths": null,
+      "cheaper": "Coles",
+      "special": false,
+      "imageUrl": "./assets/products/21-quilton-3ply-unscented-12pk.png",
+      "imageStatus": "Verified product image",
+      "imageSource": {
+        "status": "confirmed",
+        "officialPage": "https://www.coles.com.au/product/quilton-3-ply-unscented-white-toilet-paper-12-pack-5034134",
+        "note": null
+      },
+      "unit": "100ea",
+      "rec": "Insufficient Evidence",
+      "outlook7": [
+        "Unavailable",
+        null,
+        "No validated forecast is available for this collected-data snapshot.",
+        "No forecast"
+      ],
+      "outlook14": [
+        "Unavailable",
+        null,
+        "No validated forecast is available for this collected-data snapshot.",
+        "No forecast"
+      ],
+      "comparisonArea": "Point Cook 3030",
+      "comparisonStores": {
+        "coles": "Coles Point Cook Stockland",
+        "woolworths": "Woolworths Point Cook Town Centre"
+      },
+      "observations": [
+        {
+          "retailer": "coles",
+          "storeId": "store_coles_point_cook_stockland",
+          "storeName": "Coles Point Cook Stockland",
+          "areaId": "area_point_cook_3030",
+          "observedAt": "2026-09-27T23:38:00+10:00",
+          "price": 8.5,
+          "wasPrice": null,
+          "promotion": false,
+          "promotionText": null,
+          "unitPrice": 0.39,
+          "unit": "100ea",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.coles.com.au/product/quilton-3-ply-unscented-white-toilet-paper-12-pack-5034134"
+        }
+      ],
+      "catalogueVerificationStatus": "pending_both_retailer_url_check"
+    },
+    {
+      "slug": "prd_sorbent_3ply_soft_strong_16pk",
+      "name": "Sorbent 3 Ply Soft & Strong Toilet Tissue",
+      "size": "16 pack",
+      "brand": "Sorbent",
+      "category": "Household",
+      "extraCategories": [],
+      "stability": "Shelf-stable",
+      "coles": 15.5,
+      "woolworths": null,
+      "typicalColes": null,
+      "typicalWoolworths": null,
+      "cheaper": "Coles",
+      "special": false,
+      "imageUrl": "./assets/products/22-sorbent-3ply-soft-strong-16pk.png",
+      "imageStatus": "Verified product image",
+      "imageSource": {
+        "status": "confirmed",
+        "officialPage": "https://www.coles.com.au/product/sorbent-3-ply-soft-and-strong-toilet-paper-16-pack-3974092",
+        "note": null
+      },
+      "unit": "100ea",
+      "rec": "Insufficient Evidence",
+      "outlook7": [
+        "Unavailable",
+        null,
+        "No validated forecast is available for this collected-data snapshot.",
+        "No forecast"
+      ],
+      "outlook14": [
+        "Unavailable",
+        null,
+        "No validated forecast is available for this collected-data snapshot.",
+        "No forecast"
+      ],
+      "comparisonArea": "Point Cook 3030",
+      "comparisonStores": {
+        "coles": "Coles Point Cook Stockland",
+        "woolworths": "Woolworths Point Cook Town Centre"
+      },
+      "observations": [
+        {
+          "retailer": "coles",
+          "storeId": "store_coles_point_cook_stockland",
+          "storeName": "Coles Point Cook Stockland",
+          "areaId": "area_point_cook_3030",
+          "observedAt": "2026-09-27T23:38:00+10:00",
+          "price": 15.5,
+          "wasPrice": null,
+          "promotion": false,
+          "promotionText": null,
+          "unitPrice": 0.54,
+          "unit": "100ea",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.coles.com.au/product/sorbent-3-ply-soft-and-strong-toilet-paper-16-pack-3974092"
+        }
+      ],
+      "catalogueVerificationStatus": "coles_page_verified_woolworths_pending"
+    },
+    {
+      "slug": "prd_viva_double_length_white_3pk",
+      "name": "Viva Double Length Paper Towel White",
+      "size": "3 pack",
+      "brand": "Viva",
+      "category": "Household",
+      "extraCategories": [],
+      "stability": "Shelf-stable",
+      "coles": 7.2,
+      "woolworths": 9,
+      "typicalColes": null,
+      "typicalWoolworths": null,
+      "cheaper": "Coles",
+      "special": true,
+      "imageUrl": "./assets/products/23-viva-double-length-white-3pk.png",
+      "imageStatus": "Verified product image",
+      "imageSource": {
+        "status": "confirmed",
+        "officialPage": "https://www.coles.com.au/product/viva-paper-towel-double-length-white-3-pack-2915338",
+        "note": null
+      },
+      "unit": "100ea",
+      "rec": "Insufficient Evidence",
+      "outlook7": [
+        "Unavailable",
+        null,
+        "No validated forecast is available for this collected-data snapshot.",
+        "No forecast"
+      ],
+      "outlook14": [
+        "Unavailable",
+        null,
+        "No validated forecast is available for this collected-data snapshot.",
+        "No forecast"
+      ],
+      "comparisonArea": "Point Cook 3030",
+      "comparisonStores": {
+        "coles": "Coles Point Cook Stockland",
+        "woolworths": "Woolworths Point Cook Town Centre"
+      },
+      "observations": [
+        {
+          "retailer": "coles",
+          "storeId": "store_coles_point_cook_stockland",
+          "storeName": "Coles Point Cook Stockland",
+          "areaId": "area_point_cook_3030",
+          "observedAt": "2026-09-27T23:38:00+10:00",
+          "price": 7.2,
+          "wasPrice": 9,
+          "promotion": true,
+          "promotionText": "$7.20 | Save $1.80 | $2.00/ 100ea | Was $9.00",
+          "unitPrice": 2,
+          "unit": "100ea",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.coles.com.au/product/viva-paper-towel-double-length-white-3-pack-2915338"
+        },
+        {
+          "retailer": "woolworths",
+          "storeId": "store_woolworths_point_cook_stockland",
+          "storeName": "Woolworths Point Cook Town Centre",
+          "areaId": "area_point_cook_3030",
+          "observedAt": "2026-09-28T00:07:05.400+10:00",
+          "price": 9,
+          "wasPrice": null,
+          "promotion": false,
+          "promotionText": null,
+          "unitPrice": 1.67,
+          "unit": "100 sheets",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.woolworths.com.au/shop/productdetails/157334/viva-select-a-size-double-length-paper-towel"
+        },
+        {
+          "retailer": "woolworths",
+          "storeId": "store_woolworths_clayton_mcity",
+          "storeName": "Woolworths Clayton M-City",
+          "areaId": "area_clayton_3168",
+          "observedAt": "2026-09-28T00:09:30.135+10:00",
+          "price": 9,
+          "wasPrice": null,
+          "promotion": false,
+          "promotionText": null,
+          "unitPrice": 1.67,
+          "unit": "100 sheets",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.woolworths.com.au/shop/productdetails/157334/viva-select-a-size-double-length-paper-towel"
+        }
+      ],
+      "catalogueVerificationStatus": "pending_both_retailer_url_check"
+    },
+    {
+      "slug": "prd_handee_ultra_double_length_white_2pk",
+      "name": "Handee Ultra Double Length Paper Towel White",
+      "size": "2 pack",
+      "brand": "Handee",
+      "category": "Household",
+      "extraCategories": [],
+      "stability": "Shelf-stable",
+      "coles": 5.25,
+      "woolworths": 5.25,
+      "typicalColes": null,
+      "typicalWoolworths": null,
+      "cheaper": "Coles",
+      "special": false,
+      "imageUrl": "./assets/products/24-handee-ultra-double-length-white-2pk.png",
+      "imageStatus": "Verified product image",
+      "imageSource": {
+        "status": "confirmed",
+        "officialPage": "https://www.woolworths.com.au/shop/productdetails/212842",
+        "note": null
+      },
+      "unit": "100ea",
+      "rec": "Insufficient Evidence",
+      "outlook7": [
+        "Unavailable",
+        null,
+        "No validated forecast is available for this collected-data snapshot.",
+        "No forecast"
+      ],
+      "outlook14": [
+        "Unavailable",
+        null,
+        "No validated forecast is available for this collected-data snapshot.",
+        "No forecast"
+      ],
+      "comparisonArea": "Point Cook 3030",
+      "comparisonStores": {
+        "coles": "Coles Point Cook Stockland",
+        "woolworths": "Woolworths Point Cook Town Centre"
+      },
+      "observations": [
+        {
+          "retailer": "coles",
+          "storeId": "store_coles_point_cook_stockland",
+          "storeName": "Coles Point Cook Stockland",
+          "areaId": "area_point_cook_3030",
+          "observedAt": "2026-09-27T23:38:00+10:00",
+          "price": 5.25,
+          "wasPrice": null,
+          "promotion": false,
+          "promotionText": null,
+          "unitPrice": 2.19,
+          "unit": "100ea",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.coles.com.au/product/handee-ultra-double-length-paper-towel-crisp-white-2-pack-5031045"
+        },
+        {
+          "retailer": "woolworths",
+          "storeId": "store_woolworths_point_cook_stockland",
+          "storeName": "Woolworths Point Cook Town Centre",
+          "areaId": "area_point_cook_3030",
+          "observedAt": "2026-09-28T00:07:06.740+10:00",
+          "price": 5.25,
+          "wasPrice": null,
+          "promotion": false,
+          "promotionText": null,
+          "unitPrice": 2.19,
+          "unit": "100 sheets",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.woolworths.com.au/shop/productdetails/212842/handee-ultra-double-length-white-paper-towel"
+        },
+        {
+          "retailer": "woolworths",
+          "storeId": "store_woolworths_clayton_mcity",
+          "storeName": "Woolworths Clayton M-City",
+          "areaId": "area_clayton_3168",
+          "observedAt": "2026-09-28T00:09:31.312+10:00",
+          "price": 5.25,
+          "wasPrice": null,
+          "promotion": false,
+          "promotionText": null,
+          "unitPrice": 2.19,
+          "unit": "100 sheets",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.woolworths.com.au/shop/productdetails/212842/handee-ultra-double-length-white-paper-towel"
+        }
+      ],
+      "catalogueVerificationStatus": "pending_both_retailer_url_check"
+    },
+    {
+      "slug": "prd_white_wings_plain_flour_1kg",
+      "name": "White Wings Plain Flour",
+      "size": "1kg",
+      "brand": "White Wings",
+      "category": "Pantry",
+      "extraCategories": [
+        "Cake plan"
+      ],
+      "stability": "Shelf-stable",
+      "coles": 2.5,
+      "woolworths": 3.4,
+      "typicalColes": null,
+      "typicalWoolworths": null,
+      "cheaper": "Coles",
+      "special": true,
+      "imageUrl": "./assets/products/25-white-wings-plain-flour-1kg.png",
+      "imageStatus": "Verified product image",
+      "imageSource": {
+        "status": "confirmed",
+        "officialPage": "https://www.woolworths.com.au/shop/productdetails/33064",
+        "note": null
+      },
+      "unit": "1kg",
+      "rec": "Insufficient Evidence",
+      "outlook7": [
+        "Unavailable",
+        null,
+        "No validated forecast is available for this collected-data snapshot.",
+        "No forecast"
+      ],
+      "outlook14": [
+        "Unavailable",
+        null,
+        "No validated forecast is available for this collected-data snapshot.",
+        "No forecast"
+      ],
+      "comparisonArea": "Point Cook 3030",
+      "comparisonStores": {
+        "coles": "Coles Point Cook Stockland",
+        "woolworths": "Woolworths Point Cook Town Centre"
+      },
+      "observations": [
+        {
+          "retailer": "coles",
+          "storeId": "store_coles_point_cook_stockland",
+          "storeName": "Coles Point Cook Stockland",
+          "areaId": "area_point_cook_3030",
+          "observedAt": "2026-09-27T23:38:00+10:00",
+          "price": 2.5,
+          "wasPrice": 3.4,
+          "promotion": true,
+          "promotionText": "$2.50 | Save $0.90 | $2.50/ 1kg | Was $3.40",
+          "unitPrice": 2.5,
+          "unit": "1kg",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.coles.com.au/product/white-wings-plain-flour-1kg-119455"
+        },
+        {
+          "retailer": "woolworths",
+          "storeId": "store_woolworths_point_cook_stockland",
+          "storeName": "Woolworths Point Cook Town Centre",
+          "areaId": "area_point_cook_3030",
+          "observedAt": "2026-09-28T00:07:08.185+10:00",
+          "price": 3.4,
+          "wasPrice": null,
+          "promotion": false,
+          "promotionText": null,
+          "unitPrice": 3.4,
+          "unit": "kilogram",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.woolworths.com.au/shop/productdetails/33064/white-wings-plain-flour"
+        },
+        {
+          "retailer": "woolworths",
+          "storeId": "store_woolworths_clayton_mcity",
+          "storeName": "Woolworths Clayton M-City",
+          "areaId": "area_clayton_3168",
+          "observedAt": "2026-09-28T00:09:32.941+10:00",
+          "price": 3.4,
+          "wasPrice": null,
+          "promotion": false,
+          "promotionText": null,
+          "unitPrice": 3.4,
+          "unit": "kilogram",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.woolworths.com.au/shop/productdetails/33064/white-wings-plain-flour"
+        }
+      ],
+      "catalogueVerificationStatus": "both_catalogue_pages_verified"
+    },
+    {
+      "slug": "prd_csr_white_sugar_1kg",
+      "name": "CSR White Sugar",
+      "size": "1kg",
+      "brand": "CSR",
+      "category": "Pantry",
+      "extraCategories": [
+        "Cake plan"
+      ],
+      "stability": "Shelf-stable",
+      "coles": 2,
+      "woolworths": 2.3,
+      "typicalColes": null,
+      "typicalWoolworths": null,
+      "cheaper": "Coles",
+      "special": true,
+      "imageUrl": "./assets/products/26-csr-white-sugar-1kg.png",
+      "imageStatus": "Verified product image",
+      "imageSource": {
+        "status": "confirmed",
+        "officialPage": "https://www.woolworths.com.au/shop/productdetails/33156",
+        "note": null
+      },
+      "unit": "100g",
+      "rec": "Insufficient Evidence",
+      "outlook7": [
+        "Unavailable",
+        null,
+        "No validated forecast is available for this collected-data snapshot.",
+        "No forecast"
+      ],
+      "outlook14": [
+        "Unavailable",
+        null,
+        "No validated forecast is available for this collected-data snapshot.",
+        "No forecast"
+      ],
+      "comparisonArea": "Point Cook 3030",
+      "comparisonStores": {
+        "coles": "Coles Point Cook Stockland",
+        "woolworths": "Woolworths Point Cook Town Centre"
+      },
+      "observations": [
+        {
+          "retailer": "coles",
+          "storeId": "store_coles_point_cook_stockland",
+          "storeName": "Coles Point Cook Stockland",
+          "areaId": "area_point_cook_3030",
+          "observedAt": "2026-09-27T23:38:00+10:00",
+          "price": 2,
+          "wasPrice": 2.3,
+          "promotion": true,
+          "promotionText": "$2.00 | Save $0.30 | $0.20/ 100g | Was $2.30",
+          "unitPrice": 0.2,
+          "unit": "100g",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.coles.com.au/product/csr-white-sugar-1kg-120104"
+        },
+        {
+          "retailer": "woolworths",
+          "storeId": "store_woolworths_point_cook_stockland",
+          "storeName": "Woolworths Point Cook Town Centre",
+          "areaId": "area_point_cook_3030",
+          "observedAt": "2026-09-28T00:07:14.163+10:00",
+          "price": 2.3,
+          "wasPrice": null,
+          "promotion": false,
+          "promotionText": null,
+          "unitPrice": 0.23,
+          "unit": "100 grams",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.woolworths.com.au/shop/productdetails/33156/csr-white-sugar"
+        },
+        {
+          "retailer": "woolworths",
+          "storeId": "store_woolworths_clayton_mcity",
+          "storeName": "Woolworths Clayton M-City",
+          "areaId": "area_clayton_3168",
+          "observedAt": "2026-09-28T00:09:41.115+10:00",
+          "price": 2.3,
+          "wasPrice": null,
+          "promotion": false,
+          "promotionText": null,
+          "unitPrice": 0.23,
+          "unit": "100 grams",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.woolworths.com.au/shop/productdetails/33156/csr-white-sugar"
+        }
+      ],
+      "catalogueVerificationStatus": "coles_page_verified_woolworths_pending"
+    },
+    {
+      "slug": "prd_white_wings_baking_powder_125g",
+      "name": "White Wings Baking Powder",
+      "size": "125g",
+      "brand": "White Wings",
+      "category": "Pantry",
+      "extraCategories": [],
+      "stability": "Shelf-stable",
+      "coles": null,
+      "woolworths": null,
+      "typicalColes": null,
+      "typicalWoolworths": null,
+      "cheaper": null,
+      "special": false,
+      "imageUrl": null,
+      "imageStatus": "Image pending verification",
+      "imageSource": {
+        "status": "identity_not_found",
+        "officialPage": null,
+        "note": "Current Coles/Woolworths catalogues show McKenzie's Baking Powder 125g, not White Wings Baking Powder 125g. Do not substitute brands."
+      },
+      "unit": null,
+      "rec": "Insufficient Evidence",
+      "outlook7": [
+        "Unavailable",
+        null,
+        "No validated forecast is available for this collected-data snapshot.",
+        "No forecast"
+      ],
+      "outlook14": [
+        "Unavailable",
+        null,
+        "No validated forecast is available for this collected-data snapshot.",
+        "No forecast"
+      ],
+      "comparisonArea": "Point Cook 3030",
+      "comparisonStores": {
+        "coles": "Coles Point Cook Stockland",
+        "woolworths": "Woolworths Point Cook Town Centre"
+      },
+      "observations": [],
+      "catalogueVerificationStatus": "pending_pack_and_url_check"
+    },
+    {
+      "slug": "prd_western_star_unsalted_butter_250g",
+      "name": "Western Star Unsalted Butter",
+      "size": "250g",
+      "brand": "Western Star",
+      "category": "Dairy",
+      "extraCategories": [
+        "Cake plan"
+      ],
+      "stability": "Chilled",
+      "coles": 5.9,
+      "woolworths": 4.7,
+      "typicalColes": null,
+      "typicalWoolworths": null,
+      "cheaper": "Woolworths",
+      "special": true,
+      "imageUrl": "./assets/products/28-western-star-unsalted-butter-250g.png",
+      "imageStatus": "Verified product image",
+      "imageSource": {
+        "status": "confirmed",
+        "officialPage": "https://www.woolworths.com.au/shop/productdetails/320271",
+        "note": null
+      },
+      "unit": "100 grams",
+      "rec": "Insufficient Evidence",
+      "outlook7": [
+        "Unavailable",
+        null,
+        "No validated forecast is available for this collected-data snapshot.",
+        "No forecast"
+      ],
+      "outlook14": [
+        "Unavailable",
+        null,
+        "No validated forecast is available for this collected-data snapshot.",
+        "No forecast"
+      ],
+      "comparisonArea": "Point Cook 3030",
+      "comparisonStores": {
+        "coles": "Coles Point Cook Stockland",
+        "woolworths": "Woolworths Point Cook Town Centre"
+      },
+      "observations": [
+        {
+          "retailer": "coles",
+          "storeId": "store_coles_point_cook_stockland",
+          "storeName": "Coles Point Cook Stockland",
+          "areaId": "area_point_cook_3030",
+          "observedAt": "2026-09-27T23:38:00+10:00",
+          "price": 5.9,
+          "wasPrice": null,
+          "promotion": false,
+          "promotionText": null,
+          "unitPrice": 2.36,
+          "unit": "100g",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.coles.com.au/product/western-star-dairy-butter-unsalted-250g-7739731"
+        },
+        {
+          "retailer": "woolworths",
+          "storeId": "store_woolworths_point_cook_stockland",
+          "storeName": "Woolworths Point Cook Town Centre",
+          "areaId": "area_point_cook_3030",
+          "observedAt": "2026-09-28T00:07:15.331+10:00",
+          "price": 4.7,
+          "wasPrice": 5.9,
+          "promotion": true,
+          "promotionText": "Save $1.20",
+          "unitPrice": 1.88,
+          "unit": "100 grams",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.woolworths.com.au/shop/productdetails/224659/western-star-unsalted-butter-block-chef-s-choice"
+        },
+        {
+          "retailer": "woolworths",
+          "storeId": "store_woolworths_clayton_mcity",
+          "storeName": "Woolworths Clayton M-City",
+          "areaId": "area_clayton_3168",
+          "observedAt": "2026-09-28T00:09:42.333+10:00",
+          "price": 4.7,
+          "wasPrice": 5.9,
+          "promotion": true,
+          "promotionText": "Save $1.20",
+          "unitPrice": 1.88,
+          "unit": "100 grams",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.woolworths.com.au/shop/productdetails/224659/western-star-unsalted-butter-block-chef-s-choice"
+        }
+      ],
+      "catalogueVerificationStatus": "both_catalogue_pages_verified"
+    },
+    {
+      "slug": "prd_sunny_queen_free_range_large_eggs_12pk_600g",
+      "name": "Sunny Queen Free Range Large Eggs",
+      "size": "12 pack · 600g",
+      "brand": "Sunny Queen",
+      "category": "Dairy",
+      "extraCategories": [
+        "Cake plan"
+      ],
+      "stability": "Chilled",
+      "coles": 8.85,
+      "woolworths": null,
+      "typicalColes": null,
+      "typicalWoolworths": null,
+      "cheaper": "Coles",
+      "special": false,
+      "imageUrl": "./assets/products/29-sunny-queen-free-range-large-eggs-12pk-600g.png",
+      "imageStatus": "Verified product image",
+      "imageSource": {
+        "status": "confirmed",
+        "officialPage": "https://www.coles.com.au/product/sunny-queen-free-range-large-eggs-12-pack-600g-5417778",
+        "note": null
+      },
+      "unit": "100g",
+      "rec": "Insufficient Evidence",
+      "outlook7": [
+        "Unavailable",
+        null,
+        "No validated forecast is available for this collected-data snapshot.",
+        "No forecast"
+      ],
+      "outlook14": [
+        "Unavailable",
+        null,
+        "No validated forecast is available for this collected-data snapshot.",
+        "No forecast"
+      ],
+      "comparisonArea": "Point Cook 3030",
+      "comparisonStores": {
+        "coles": "Coles Point Cook Stockland",
+        "woolworths": "Woolworths Point Cook Town Centre"
+      },
+      "observations": [
+        {
+          "retailer": "coles",
+          "storeId": "store_coles_point_cook_stockland",
+          "storeName": "Coles Point Cook Stockland",
+          "areaId": "area_point_cook_3030",
+          "observedAt": "2026-09-27T23:38:00+10:00",
+          "price": 8.85,
+          "wasPrice": null,
+          "promotion": false,
+          "promotionText": null,
+          "unitPrice": 1.48,
+          "unit": "100g",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.coles.com.au/product/sunny-queen-free-range-large-eggs-12-pack-600g-5417778"
+        }
+      ],
+      "catalogueVerificationStatus": "coles_page_verified_woolworths_pending"
+    },
+    {
+      "slug": "prd_bulla_thickened_cream_600ml",
+      "name": "Bulla Thickened Cream",
+      "size": "600mL",
+      "brand": "Bulla",
+      "category": "Dairy",
+      "extraCategories": [
+        "Cake plan"
+      ],
+      "stability": "Chilled",
+      "coles": 6.3,
+      "woolworths": 6.3,
+      "typicalColes": null,
+      "typicalWoolworths": null,
+      "cheaper": "Coles",
+      "special": false,
+      "imageUrl": "./assets/products/30-bulla-thickened-cream-600ml.png",
+      "imageStatus": "Verified product image",
+      "imageSource": {
+        "status": "confirmed",
+        "officialPage": "https://www.woolworths.com.au/shop/productdetails/47022",
+        "note": null
+      },
+      "unit": "100mL",
+      "rec": "Insufficient Evidence",
+      "outlook7": [
+        "Unavailable",
+        null,
+        "No validated forecast is available for this collected-data snapshot.",
+        "No forecast"
+      ],
+      "outlook14": [
+        "Unavailable",
+        null,
+        "No validated forecast is available for this collected-data snapshot.",
+        "No forecast"
+      ],
+      "comparisonArea": "Point Cook 3030",
+      "comparisonStores": {
+        "coles": "Coles Point Cook Stockland",
+        "woolworths": "Woolworths Point Cook Town Centre"
+      },
+      "observations": [
+        {
+          "retailer": "coles",
+          "storeId": "store_coles_point_cook_stockland",
+          "storeName": "Coles Point Cook Stockland",
+          "areaId": "area_point_cook_3030",
+          "observedAt": "2026-09-27T23:38:00+10:00",
+          "price": 6.3,
+          "wasPrice": null,
+          "promotion": false,
+          "promotionText": null,
+          "unitPrice": 1.05,
+          "unit": "100mL",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.coles.com.au/product/bulla-thickened-cream-600ml-381312"
+        },
+        {
+          "retailer": "woolworths",
+          "storeId": "store_woolworths_point_cook_stockland",
+          "storeName": "Woolworths Point Cook Town Centre",
+          "areaId": "area_point_cook_3030",
+          "observedAt": "2026-09-28T00:07:16.469+10:00",
+          "price": 6.3,
+          "wasPrice": null,
+          "promotion": false,
+          "promotionText": null,
+          "unitPrice": 1.05,
+          "unit": "100 millilitres",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.woolworths.com.au/shop/productdetails/47022/bulla-thickened-cream"
+        },
+        {
+          "retailer": "woolworths",
+          "storeId": "store_woolworths_clayton_mcity",
+          "storeName": "Woolworths Clayton M-City",
+          "areaId": "area_clayton_3168",
+          "observedAt": "2026-09-28T00:09:43.707+10:00",
+          "price": 6.3,
+          "wasPrice": null,
+          "promotion": false,
+          "promotionText": null,
+          "unitPrice": 1.05,
+          "unit": "100 millilitres",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.woolworths.com.au/shop/productdetails/47022/bulla-thickened-cream"
+        }
+      ],
+      "catalogueVerificationStatus": "both_catalogue_pages_verified"
+    },
+    {
+      "slug": "prd_fresh_strawberries_250g",
+      "name": "Fresh Strawberries",
+      "size": "250g",
+      "brand": "Fresh produce",
+      "category": "Fresh",
+      "extraCategories": [
+        "Cake plan"
+      ],
+      "stability": "Fresh",
+      "coles": 4,
+      "woolworths": 4,
+      "typicalColes": null,
+      "typicalWoolworths": null,
+      "cheaper": "Coles",
+      "special": false,
+      "imageUrl": "./assets/products/31-fresh-strawberries-250g.png",
+      "imageStatus": "Verified product image",
+      "imageSource": {
+        "status": "family_match",
+        "officialPage": "https://www.woolworths.com.au/shop/productdetails/144607",
+        "note": null
+      },
+      "unit": "1kg",
+      "rec": "Insufficient Evidence",
+      "outlook7": [
+        "Unavailable",
+        null,
+        "No validated forecast is available for this collected-data snapshot.",
+        "No forecast"
+      ],
+      "outlook14": [
+        "Unavailable",
+        null,
+        "No validated forecast is available for this collected-data snapshot.",
+        "No forecast"
+      ],
+      "comparisonArea": "Point Cook 3030",
+      "comparisonStores": {
+        "coles": "Coles Point Cook Stockland",
+        "woolworths": "Woolworths Point Cook Town Centre"
+      },
+      "observations": [
+        {
+          "retailer": "coles",
+          "storeId": "store_coles_point_cook_stockland",
+          "storeName": "Coles Point Cook Stockland",
+          "areaId": "area_point_cook_3030",
+          "observedAt": "2026-09-27T23:38:00+10:00",
+          "price": 4,
+          "wasPrice": null,
+          "promotion": false,
+          "promotionText": null,
+          "unitPrice": 16,
+          "unit": "1kg",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.coles.com.au/product/coles-strawberries-250g-5191256"
+        },
+        {
+          "retailer": "woolworths",
+          "storeId": "store_woolworths_point_cook_stockland",
+          "storeName": "Woolworths Point Cook Town Centre",
+          "areaId": "area_point_cook_3030",
+          "observedAt": "2026-09-28T00:07:21.872+10:00",
+          "price": 4,
+          "wasPrice": null,
+          "promotion": false,
+          "promotionText": null,
+          "unitPrice": 16,
+          "unit": "kilogram",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.woolworths.com.au/shop/productdetails/144607/strawberries-punnet"
+        },
+        {
+          "retailer": "woolworths",
+          "storeId": "store_woolworths_clayton_mcity",
+          "storeName": "Woolworths Clayton M-City",
+          "areaId": "area_clayton_3168",
+          "observedAt": "2026-09-28T00:09:48.470+10:00",
+          "price": 4,
+          "wasPrice": null,
+          "promotion": false,
+          "promotionText": null,
+          "unitPrice": 16,
+          "unit": "kilogram",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.woolworths.com.au/shop/productdetails/144607/strawberries-punnet"
+        }
+      ],
+      "catalogueVerificationStatus": "family_pages_verified"
+    },
+    {
+      "slug": "prd_queen_vanilla_extract_50ml",
+      "name": "Queen Natural Vanilla Concentrated Extract",
+      "size": "50mL",
+      "brand": "Queen",
+      "category": "Pantry",
+      "extraCategories": [],
+      "stability": "Shelf-stable",
+      "coles": 6.4,
+      "woolworths": 7.4,
+      "typicalColes": null,
+      "typicalWoolworths": null,
+      "cheaper": "Coles",
+      "special": true,
+      "imageUrl": "./assets/products/32-queen-vanilla-extract-50ml.png",
+      "imageStatus": "Verified product image",
+      "imageSource": {
+        "status": "confirmed",
+        "officialPage": "https://www.woolworths.com.au/shop/productdetails/115233",
+        "note": null
+      },
+      "unit": "100mL",
+      "rec": "Insufficient Evidence",
+      "outlook7": [
+        "Unavailable",
+        null,
+        "No validated forecast is available for this collected-data snapshot.",
+        "No forecast"
+      ],
+      "outlook14": [
+        "Unavailable",
+        null,
+        "No validated forecast is available for this collected-data snapshot.",
+        "No forecast"
+      ],
+      "comparisonArea": "Point Cook 3030",
+      "comparisonStores": {
+        "coles": "Coles Point Cook Stockland",
+        "woolworths": "Woolworths Point Cook Town Centre"
+      },
+      "observations": [
+        {
+          "retailer": "coles",
+          "storeId": "store_coles_point_cook_stockland",
+          "storeName": "Coles Point Cook Stockland",
+          "areaId": "area_point_cook_3030",
+          "observedAt": "2026-09-27T23:38:00+10:00",
+          "price": 6.4,
+          "wasPrice": 7.4,
+          "promotion": true,
+          "promotionText": "$6.40 | Save $1.00 | $12.80/ 100mL | Was $7.40",
+          "unitPrice": 12.8,
+          "unit": "100mL",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.coles.com.au/product/queen-natural-vanilla-concentrated-extract-50ml-8532284"
+        },
+        {
+          "retailer": "woolworths",
+          "storeId": "store_woolworths_point_cook_stockland",
+          "storeName": "Woolworths Point Cook Town Centre",
+          "areaId": "area_point_cook_3030",
+          "observedAt": "2026-09-28T00:07:23.125+10:00",
+          "price": 7.4,
+          "wasPrice": null,
+          "promotion": false,
+          "promotionText": null,
+          "unitPrice": 1.48,
+          "unit": "10 millilitres",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.woolworths.com.au/shop/productdetails/115233/queen-natural-vanilla-concentrated-extract"
+        },
+        {
+          "retailer": "woolworths",
+          "storeId": "store_woolworths_clayton_mcity",
+          "storeName": "Woolworths Clayton M-City",
+          "areaId": "area_clayton_3168",
+          "observedAt": "2026-09-28T00:09:49.791+10:00",
+          "price": 7.4,
+          "wasPrice": null,
+          "promotion": false,
+          "promotionText": null,
+          "unitPrice": 1.48,
+          "unit": "10 millilitres",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.woolworths.com.au/shop/productdetails/115233/queen-natural-vanilla-concentrated-extract"
+        }
+      ],
+      "catalogueVerificationStatus": "both_catalogue_pages_verified"
+    },
+    {
+      "slug": "prd_full_cream_milk_2l",
+      "name": "Full Cream Fresh Milk",
+      "size": "2L",
+      "brand": "Product family",
+      "category": "Dairy",
+      "extraCategories": [],
+      "stability": "Chilled",
+      "coles": 5,
+      "woolworths": 4.6,
+      "typicalColes": null,
+      "typicalWoolworths": null,
+      "cheaper": "Woolworths",
+      "special": false,
+      "imageUrl": "./assets/products/33-pura-full-cream-milk-2l.png",
+      "imageStatus": "Verified product image",
+      "imageSource": {
+        "status": "family_representative",
+        "officialPage": "https://www.woolworths.com.au/shop/productdetails/62636",
+        "note": "The canonical master is brand-generic; Pura is the verified Woolworths product observed in the authenticated collection."
+      },
+      "unit": "litre",
+      "rec": "Insufficient Evidence",
+      "outlook7": [
+        "Unavailable",
+        null,
+        "No validated forecast is available for this collected-data snapshot.",
+        "No forecast"
+      ],
+      "outlook14": [
+        "Unavailable",
+        null,
+        "No validated forecast is available for this collected-data snapshot.",
+        "No forecast"
+      ],
+      "comparisonArea": "Point Cook 3030",
+      "comparisonStores": {
+        "coles": "Coles Point Cook Stockland",
+        "woolworths": "Woolworths Point Cook Town Centre"
+      },
+      "observations": [
+        {
+          "retailer": "coles",
+          "storeId": "store_coles_point_cook_stockland",
+          "storeName": "Coles Point Cook Stockland",
+          "areaId": "area_point_cook_3030",
+          "observedAt": "2026-09-27T23:38:00+10:00",
+          "price": 5,
+          "wasPrice": null,
+          "promotion": false,
+          "promotionText": null,
+          "unitPrice": 2.5,
+          "unit": "1L",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.coles.com.au/product/great-ocean-road-fresh-full-cream-milk-2l-9321070"
+        },
+        {
+          "retailer": "woolworths",
+          "storeId": "store_woolworths_point_cook_stockland",
+          "storeName": "Woolworths Point Cook Town Centre",
+          "areaId": "area_point_cook_3030",
+          "observedAt": "2026-09-28T00:07:24.424+10:00",
+          "price": 4.6,
+          "wasPrice": null,
+          "promotion": false,
+          "promotionText": null,
+          "unitPrice": 2.3,
+          "unit": "litre",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.woolworths.com.au/shop/productdetails/62636/pura-full-cream-milk-milk"
+        },
+        {
+          "retailer": "woolworths",
+          "storeId": "store_woolworths_clayton_mcity",
+          "storeName": "Woolworths Clayton M-City",
+          "areaId": "area_clayton_3168",
+          "observedAt": "2026-09-28T00:09:51.299+10:00",
+          "price": 4.6,
+          "wasPrice": null,
+          "promotion": false,
+          "promotionText": null,
+          "unitPrice": 2.3,
+          "unit": "litre",
+          "stockStatus": "in_stock",
+          "qualityStatus": "valid_store_specific",
+          "sourceUrl": "https://www.woolworths.com.au/shop/productdetails/62636/pura-full-cream-milk-milk"
+        }
+      ],
+      "catalogueVerificationStatus": "family_match_pending"
+    }
+  ]
+}
